@@ -1,10 +1,10 @@
-import { createBrowserRouter } from "react-router";
+import { createHashRouter } from "react-router";
 import { Root } from "./components/Root";
 import { TodaysDish } from "./pages/TodaysDish";
 import { MonthlyOverview } from "./pages/MonthlyOverview";
 import { DishPage } from "./pages/DishPage";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     Component: Root,
