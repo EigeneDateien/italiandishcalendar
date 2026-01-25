@@ -1,7 +1,7 @@
 
   # Italian Dish Calendar
 
-  This is a code bundle for Italian Dish Calendar. The original project is available at https://www.figma.com/design/4CYM7fh5FypqPgeNzEpEap/Italian-Dish-Calendar.
+  This is an online calendar that displays 365 Italian dishes that are neither pizza nor pasta. One dish per day.
 
   ## Running the code
 
