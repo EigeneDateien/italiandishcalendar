@@ -10,14 +10,14 @@ export interface ItalianDish {
 }
 
 export const italianDishes: Record<number, Record<number, ItalianDish>> = {
-  1: {
+  0: {
     1: {
       id: 1,
       name: "Paté di riso",
       description: "Hearty first course from Sicilia.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Pat%C3%A9+di+riso+sicilian+food",
+        "https://mfgqkpukzigjcouxakjh.supabase.co/storage/v1/object/public/ricette-di-sicilia/images/recipe/pate-di-riso-catanese/it/large.webp",
       linkToRecipe:
         "https://blog.giallozafferano.it/tanedolceamara/pate-di-riso-al-ragu/",
       ingredients: [
@@ -38,7 +38,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Traditional Partinico sausage with lamb and pork notes.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Salsiccia+pasqualora+sicilian+food",
+        "https://www.intavoliamo.it/Info/images/joomlart/article/7fb770f34c796f7501d3cf0f0dc39075.jpg",
       linkToRecipe:
         "https://www.intavoliamo.it/Info/prodotti-tipici-siciliani/salsiccia-pasqualora",
       ingredients: [
@@ -56,7 +56,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Caponata",
       description: "Sweet-and-sour eggplant relish, a Sicilian classic.",
       region: "Sicilia",
-      image: "https://source.unsplash.com/1600x1200/?Caponata+sicilian+food",
+      image: "https://ptps.stbm.it/t/ypvtqh_large.jpg",
       linkToRecipe: "https://ricette.giallozafferano.it/Caponata.html",
       ingredients: [
         "Melanzane",
@@ -77,7 +77,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Arancino",
       description: "Golden fried rice ball stuffed with ragù and cheese.",
       region: "Sicilia",
-      image: "https://source.unsplash.com/1600x1200/?Arancino+sicilian+food",
+      image: "https://ptps.stbm.it/t/rt4nws_large.jpg",
       linkToRecipe: "https://ricette.giallozafferano.it/Arancini-di-riso.html",
       ingredients: [
         "Riso",
@@ -97,8 +97,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Canestrato (formaggio siciliano)",
       description: "Rustic Sicilian cheese traditionally shaped in baskets.",
       region: "Sicilia",
-      image:
-        "https://source.unsplash.com/1600x1200/?Canestrato+%28formaggio+siciliano%29+sicilian+food",
+      image: "http://www.formaggio.it/wp-content/uploads/2013/09/223.jpg",
       linkToRecipe: "https://www.caseificiolacava.it/canestrato-siciliano/",
       ingredients: ["Latte di pecora (e/o vacca)", "Caglio", "Sale"],
       type: "Antipasto",
@@ -109,7 +108,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Marzipan lamb dessert typical of Easter in Sicily.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Agnello+pasquale+%28dolce%29+sicilian+food",
+        "https://www.tuorlorosso.it/wp-content/uploads/2024/03/Agnello-di-Favara-3.jpg",
       linkToRecipe: "https://www.tuorlorosso.it/agnello-pasquale-di-favara/",
       ingredients: [
         "Farina di mandorle (pasta reale)",
@@ -128,7 +127,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Messina-style beef rolls with a savory breadcrumb-and-cheese filling.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Braciole+alla+messinese+sicilian+food",
+        "https://www.cucchiaio.it/content/dam/cucchiaio/it/ricette/2025/08/braciole-alla-messinese/Braciole%20alla%20messinese-1.jpg",
       linkToRecipe: "https://www.cucchiaio.it/ricetta/braciole-alla-messinese/",
       ingredients: [
         "Fette sottili di manzo",
@@ -150,7 +149,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Fried rice sweet from eastern Sicily, often made for festivities.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Sfincione+di+riso+sicilian+food",
+        "https://www.tuorlorosso.it/wp-content/uploads/2025/02/Sfinci-di-riso-messinesi-1.jpg",
       linkToRecipe: "https://www.tuorlorosso.it/sfinci-di-riso-messinesi/",
       ingredients: [
         "Riso",
@@ -172,7 +171,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Local Partinico variant blending pork with lamb and wild fennel.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Salsiccia+pasqualora+partinicese+sicilian+food",
+        "https://mfgqkpukzigjcouxakjh.supabase.co/storage/v1/object/public/ricette-di-sicilia/images/article/salsiccia-sasizza-pasqualora/it/large.webp",
       linkToRecipe:
         "https://ricettedisicilia.org/salsiccia-sasizza-pasqualora/",
       ingredients: [
@@ -191,7 +190,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Layered baked eggplant with tomato sauce and cheese.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Parmigiana+di+melanzane+sicilian+food",
+        "https://blog.giallozafferano.it/ilchiccodimais/wp-content/uploads/2020/07/parmigiana-di-melanzane-alla-siciliana-ricetta-originale-semplice-con-melanzane-fritte-pomodoro-e-formaggio-il-chicco-di-mais.jpg",
       linkToRecipe:
         "https://blog.giallozafferano.it/ilchiccodimais/parmigiana-di-melanzane-alla-siciliana/",
       ingredients: [
@@ -212,7 +211,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Soft Messina focaccia with escarole, anchovies, tomatoes and tuma.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Focaccia+messinese+sicilian+food",
+        "https://www.soniaperonaci.it/wp-content/uploads/2021/11/Focaccia-messinese-6-960x1440.jpg.webp",
       linkToRecipe: "https://www.soniaperonaci.it/focaccia-alla-messinese/",
       ingredients: [
         "Farina (00/semola)",
@@ -235,7 +234,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Mountain cheese from the Sicani area, traditionally sheep’s milk-based.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Formaggio+di+Santo+Stefano+di+Quisquina+sicilian+food",
+        "http://www.formaggio.it/wp-content/uploads/2013/09/Quisquina-300x270.jpg",
       linkToRecipe:
         "https://www.formaggio.it/formaggio/formaggio-di-s-stefano-di-quisquina-p-a-t/",
       ingredients: ["Latte di pecora", "Caglio", "Sale"],
@@ -246,8 +245,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Biscotto savoiardo",
       description: "Light sponge biscuits used in classic Italian desserts.",
       region: "Sicilia",
-      image:
-        "https://source.unsplash.com/1600x1200/?Biscotto+savoiardo+sicilian+food",
+      image: "https://ptps.stbm.it/t/0m5199_large.jpg",
       linkToRecipe: "https://ricette.giallozafferano.it/Savoiardi.html",
       ingredients: [
         "Uova",
@@ -265,8 +263,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Rustic seasoned bread (also known as pane cunzato / pane disgraziato).",
       region: "Sicilia",
-      image:
-        "https://source.unsplash.com/1600x1200/?Pagnotta+alla+disgraziata+sicilian+food",
+      image: "https://ptps.stbm.it/t/24qctr_large.jpg",
       linkToRecipe: "https://ricette.giallozafferano.it/Pane-cunzato.html",
       ingredients: [
         "Pane di semola",
@@ -285,8 +282,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Focaccia nissena",
       description: "Caltanissetta-style stuffed bread, hearty and savory.",
       region: "Sicilia",
-      image:
-        "https://source.unsplash.com/1600x1200/?Focaccia+nissena+sicilian+food",
+      image: "https://ptps.stbm.it/t/ggq6g8_large.jpg",
       linkToRecipe: "https://giusinaincucina.com/scacciata-nissena/",
       ingredients: [
         "Semola di grano duro",
@@ -308,7 +304,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Goat cheese—fresh and tangy, common across Sicilian countryside tables.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Formaggio+di+capra+siciliana+sicilian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvmkx-9taIXZm6hjIYHdl7AQe8xwh_-MB_Vw&s",
       linkToRecipe:
         "https://altacucina.co/recipes/formaggio-di-capra-fatto-in-casa",
       ingredients: [
@@ -324,7 +320,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Gelato",
       description: "Classic Italian gelato, creamy and intensely flavored.",
       region: "Sicilia",
-      image: "https://source.unsplash.com/1600x1200/?Gelato+sicilian+food",
+      image:
+        "https://www.tavolartegusto.it/wp/wp-content/uploads/2020/04/Gelato-fatto-in-casa-Ricetta-Gelato.jpg",
       linkToRecipe:
         "https://www.tavolartegusto.it/ricetta/gelato-fatto-in-casa-ricetta/",
       ingredients: [
@@ -343,7 +340,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Messina-style stockfish stew with potatoes, olives and capers.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Stocco+alla+ghiotta+sicilian+food",
+        "https://www.sicilianicreativiincucina.it/wp-content/uploads/2025/09/pesce-stocco-ghiotta-585x439.jpg",
       linkToRecipe:
         "https://www.sicilianicreativiincucina.it/pesce-stocco-a-ghiotta-alla-messinese/",
       ingredients: [
@@ -366,7 +363,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Rare convent pastry from Caltanissetta, rediscovered in modern times.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Spina+santa+%28dolce%29+sicilian+food",
+        "https://media.izi.travel/2c4a405a-8d74-4783-817a-1666d51fb377/9c64fa45-fa5f-42bb-93f0-18dd9a7da28a_800x600.jpg",
       linkToRecipe: "https://www.youtube.com/watch?v=bI5StUwfvgk",
       ingredients: [
         "Mandorle",
@@ -384,7 +381,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Soft Sicilian bakery roll wrapped around a würstel, a rosticceria staple.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Roll%C3%B2+con+w%C3%BCrstel+sicilian+food",
+        "https://www.tuorlorosso.it/wp-content/uploads/2020/10/Rollo-con-wurstel-3.jpg",
       linkToRecipe: "https://www.tuorlorosso.it/rollo-con-wurstel/",
       ingredients: [
         "Farina 00",
@@ -406,7 +403,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Catania-style ricotta-filled sponge cake, elegant and rich.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Torta+Fedora+sicilian+food",
+        "https://www.soniaperonaci.it/wp-content/uploads/2021/08/Torta-Fedora-496x661.jpg.webp",
       linkToRecipe: "https://www.soniaperonaci.it/torta-fedora/",
       ingredients: [
         "Uova",
@@ -427,7 +424,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Carnival-style fried dough nuggets coated in honey.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Pignolata+al+miele+sicilian+food",
+        "https://www.giallozafferano.it/images/164-16472/Pignolata-al-miele_780x520_wm.jpg",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Pignolata-al-miele.html",
       ingredients: [
@@ -450,7 +447,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Sicilian DOP olive oil from the Val di Mazara area, ideal raw on bread.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Val+di+Mazara+%28olio+di+oliva%29+sicilian+food",
+        "https://www.bonodisicilia.it/wp-content/uploads/2023/12/dop_val_di_mazara_750ml_bono_di_sicilia.webp",
       linkToRecipe:
         "https://www.bonodisicilia.it/shop/olio-extravergine-oliva/olio-evo-dop/olio-dop-val-di-mazara-750-ml/",
       ingredients: [
@@ -469,7 +466,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Trapani-style pesto with tomatoes and almonds tossed with busiate.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Busiate+col+pesto+trapanese+sicilian+food",
+        "https://www.donnafugata.it/wp-content/uploads/2016/08/Donnafugata-busiate-pesto-trapanese.jpg.webp",
       linkToRecipe:
         "https://www.donnafugata.it/it/recipe/busiate-al-pesto-trapanese/",
       ingredients: [
@@ -490,8 +487,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Seasoned bread with tomatoes, anchovies, primo sale and oregano.",
       region: "Sicilia",
-      image:
-        "https://source.unsplash.com/1600x1200/?Pane+cunzato+sicilian+food",
+      image: "https://ptps.stbm.it/t/24qctr_large.jpg",
       linkToRecipe: "https://ricette.giallozafferano.it/Pane-cunzato.html",
       ingredients: [
         "Pane",
@@ -512,7 +508,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Dark, aromatic Tumminia bread, traditionally topped with sesame.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Pane+nero+di+Castelvetrano+sicilian+food",
+        "https://www.cucchiaio.it/content/cucchiaio/it/ricette/2014/12/pane-nero-di-castelvetrano/_jcr_content/header-par/image-single.img.jpg/1419924785002.jpg",
       linkToRecipe:
         "https://www.cucchiaio.it/ricetta/pane-nero-di-castelvetrano/",
       ingredients: [
@@ -531,7 +527,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Palermo street-food chickpea fritters, crisp outside and tender within.",
       region: "Sicilia",
-      image: "https://source.unsplash.com/1600x1200/?Panella+sicilian+food",
+      image:
+        "https://www.thepetitecook.com/wp-content/uploads/2023/09/panelle-recipe.jpg",
       linkToRecipe:
         "https://www.tavolartegusto.it/ricetta/panelle-la-ricetta-originale/",
       ingredients: [
@@ -549,7 +546,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Tarallo",
       description: "Sicilian sweet taralli, often glazed with lemony icing.",
       region: "Sicilia",
-      image: "https://source.unsplash.com/1600x1200/?Tarallo+sicilian+food",
+      image:
+        "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/3c57fca27cc8cca5c8e88320679db8b2/Derivates/56bd227b9099e4ed8c92604a10c0d0680a5d3d6e.jpg",
       linkToRecipe: "https://ricette.giallozafferano.it/Taralli-siciliani.html",
       ingredients: [
         "Farina 00",
@@ -568,7 +566,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Timballo",
       description: "Oven-baked rice timbale, rich and celebratory.",
       region: "Sicilia",
-      image: "https://source.unsplash.com/1600x1200/?Timballo+sicilian+food",
+      image:
+        "https://www.giallozafferano.it/images/269-26967/Timballo-di-riso_780x520_wm.jpg",
       linkToRecipe:
         "https://www.casapappagallo.it/ricette/timballo-di-riso-semplice",
       ingredients: [
@@ -591,7 +590,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Fried Sicilian bread/dough pocket, often with anchovy inside.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Vastedda+fritta+sicilian+food",
+        "https://blog.giallozafferano.it/cannellaegelsomino/wp-content/uploads/2022/11/idda2-320x205.jpg",
       linkToRecipe:
         "https://blog.giallozafferano.it/cannellaegelsomino/mitilugghia-o-vastedda-fritta-un-piatto-del-ricordo/",
       ingredients: [
@@ -611,7 +610,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Pungent red garlic from the Trapani area, prized for its intensity.",
       region: "Sicilia",
       image:
-        "https://source.unsplash.com/1600x1200/?Aglio+rosso+di+Nubia+sicilian+food",
+        "https://www.agliorossodinubia-produttori.com/public/aglio/2016-07-12_175938.jpg",
       linkToRecipe:
         "https://www.agliorossodinubia-produttori.com/index.asp?cat=10&pag=blog",
       ingredients: [
@@ -623,14 +622,14 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       type: "Snack",
     },
   },
-  2: {
+  1: {
     1: {
       id: 1,
       name: "Zuppa gallurese",
       description: "Hearty soup from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Zuppa%20gallurese%20italian%20food",
+        "https://www.giallozafferano.it/images/201-20129/Zuppa-gallurese_780x520_wm.jpg",
       linkToRecipe: "https://ricette.giallozafferano.it/Zuppa-gallurese.html",
       ingredients: [
         "Day-old bread",
@@ -647,7 +646,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Meat main from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Trippa%20di%20mare%20italian%20food",
+        "https://immagini.unionesarda.it/version/c:MDk3Yjk0OTgtOTM2Ni00:N2VmNDZiNDMtZDg2Zi00/image.webp?f=3%3A2&q=0.75&w=640",
       linkToRecipe:
         "https://www.unionesarda.it/bella-sardegna/ricette-sarde/trippa-alla-sarda-la-ricetta-della-tradizione-cofupluc",
       ingredients: [
@@ -668,7 +667,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Seafood main from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Viticoltura%20in%20Sardegna%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJxSuyEd-gtZWzhkj5ElBZIvwXFjoj35wZA&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Viticoltura_in_Sardegna",
       ingredients: [
         "Grapes (Cannonau, Vermentino, etc.)",
@@ -685,7 +684,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Classic street food from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Focaccia%20sarda%20ripiena%20italian%20food",
+        "https://www.lalunasulcucchiaio.it/wp-content/uploads/2021/08/foto-12-08-21-12-51-56-scaled-e1629710184272.jpg",
       linkToRecipe:
         "https://www.lalunasulcucchiaio.it/2021/08/focaccia-ripiena-sarda.html",
       ingredients: [
@@ -706,7 +705,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Testa%20in%20cassetta%20italian%20food",
+        "https://intavoliamo.it/Info/images/joomlart/article/3d9a979b1c7ae6adda1ab5edd6c87151.jpg",
       linkToRecipe:
         "https://intavoliamo.it/Info/prodotti-tipici-sardi/testa-in-cassetta",
       ingredients: [
@@ -725,7 +724,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Seafood main from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Agnello%20di%20Sardegna%20italian%20food",
+        "https://www.ilgiornaledelcibo.it/wp-content/uploads/2014/06/agnello-in-umido.jpg",
       linkToRecipe:
         "https://www.ilgiornaledelcibo.it/ricetta/agnello-in-umido/",
       ingredients: [
@@ -749,7 +748,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Pane%20%27e%20poddine%20italian%20food",
+        "https://media.lacucinaitaliana.com/photos/5fa12408040f5971b0d9ad60/2:1/w_1200,c_limit/Spianata%20sarda.jpg",
       linkToRecipe:
         "https://www.lacucinaitaliana.com/italian-food/italian-dishes/pane-modde-sardinia-flatbread",
       ingredients: [
@@ -766,8 +765,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Carciofo spinoso di Sardegna",
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
-      image:
-        "https://source.unsplash.com/1600x1200/?Carciofo%20spinoso%20di%20Sardegna%20italian%20food",
+      image: "https://ptps.stbm.it/t/xlx853_large.jpg",
       linkToRecipe:
         "https://www.arborea1956.com/ricette/carciofi-alla-sassarese/",
       ingredients: [
@@ -788,7 +786,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Pane%20carasau%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD7GvzRvasYJJioN_cF90P9VGR4GIZF2WXGg&s",
       linkToRecipe: "https://www.cookist.it/pane-carasau/",
       ingredients: ["Durum wheat semolina", "Water", "Yeast/sourdough", "Salt"],
       type: "Snack",
@@ -799,7 +797,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Pane%20fratau%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJBIMZGyFfCNg4XW1Q5o21OPpA6sDHURMk5w&s",
       linkToRecipe: "https://www.cucchiaio.it/ricetta/pane-frattau/",
       ingredients: [
         "Pane carasau",
@@ -817,7 +815,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Andarinos%20italian%20food",
+        "https://www.andronaco.de/media/7e/b0/5c/1753695629/sarde-16-9.webp",
       linkToRecipe:
         "https://www.unionesarda.it/bella-sardegna/ricette-sarde/andarinos-la-tradizione-della-pasta-di-oriolo-i31yx0co",
       ingredients: [
@@ -835,7 +833,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Bottarga",
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
-      image: "https://source.unsplash.com/1600x1200/?Bottarga%20italian%20food",
+      image:
+        "https://www.casapappagallo.it/storage/14385/crostini-con-bottarga-di-cefalo.jpg",
       linkToRecipe:
         "https://www.arborea1956.com/ricette/crostini-alla-bottarga/",
       ingredients: [
@@ -854,7 +853,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Buzzonaglia%20italian%20food",
+        "https://www.gommonauti.it/imm/33533/1365226750_ricetta_buzzonaglia_di_tonno_ad_insalata.jpg",
       linkToRecipe:
         "https://www.lacucinaitaliana.it/ricetta/primo/buzzonaglia/",
       ingredients: [
@@ -874,7 +873,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Seafood main from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Casc%C3%A0%20italian%20food",
+        "https://www.cucchiaio.it/content/cucchiaio/it/ricette/2009/12/ricetta-casca-carloforte/_jcr_content/header-par/image_single.img.jpg/1410276414302.jpg",
       linkToRecipe:
         "https://www.cucchiaio.it/ricetta/ricetta-casca-carloforte/",
       ingredients: [
@@ -894,7 +893,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Seafood main from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Casu%20axedu%20italian%20food",
+        "https://as1.ftcdn.net/jpg/01/63/62/92/1000_F_163629201_PmyxzNdXYhuj4TYyUoryImzxDWLflM50.jpg",
       linkToRecipe:
         "https://www.unionesarda.it/bella-sardegna/ricette-sarde/casu-axedhu-il-formaggio-sardo-da-latte-acerbo-la-ricetta-fcndg2wy",
       ingredients: [
@@ -913,7 +912,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Casu%20marzu%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzd936hcl0ve-7kR9f5iI9CCsq9dB6v9Z_gQ&s",
       linkToRecipe: "https://www.laveneradipinna.com/casu-marzu",
       ingredients: [
         "Pecorino/Fior Sardo base cheese",
@@ -929,7 +928,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Classic street food from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Cipolla%20di%20Banari%20italian%20food",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKAlQItrBiP7GAUapVJsSWxjAn5qR2UQmMx6PxLAeciFHrMpNTLP7G5SFtbSTB_A31tSVPm46Hfc4LVGr2fFazBcVYYkFj07MADQIrcxsNM4Hk-8KcibS-8dEbsxYxTDibQuBBZpMuRK_4/s1600/DSC_0384.JPG",
       linkToRecipe:
         "https://www.arborea1956.com/ricette/cibuddau-o-cipolla-sarda/",
       ingredients: [
@@ -948,7 +947,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Civraxu",
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
-      image: "https://source.unsplash.com/1600x1200/?Civraxu%20italian%20food",
+      image:
+        "https://cdn.agrodolce.it/houUW7HNd0oMZSwq8-m09A48UD4=/1150x647/smart/https://www.agrodolce.it/app/uploads/2020/05/pane-civraxiu.jpg",
       linkToRecipe: "https://www.agrodolce.it/ricette/pane-civraxiu-pane-sardo",
       ingredients: [
         "Durum wheat semolina flour",
@@ -965,7 +965,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Classic street food from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Coco%C3%AD%20a%20pitzus%20italian%20food",
+        "https://blog.giallozafferano.it/unavitaincucina/wp-content/uploads/2025/04/1000077208-960x720.jpg",
       linkToRecipe:
         "https://blog.giallozafferano.it/unavitaincucina/ricetta-pane-coccoi/",
       ingredients: [
@@ -982,7 +982,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Filindeu",
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
-      image: "https://source.unsplash.com/1600x1200/?Filindeu%20italian%20food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbzm_lQJi0YH4XiGbiwK8i9WY6WSQbm20oaA&s",
       linkToRecipe: "https://www.arborea1956.com/ricette/filindeu/",
       ingredients: [
         "Filindeu pasta",
@@ -1001,10 +1002,11 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Filu%20%27e%20ferru%20italian%20food",
+        "https://www.ricettedisardegna.it/wp-content/uploads/2021/06/Gamberi-al-filu-e-ferru.jpg",
       linkToRecipe:
         "https://www.ricettedisardegna.it/recipe/pere-al-filu-e-ferru/",
       ingredients: [
+        "Gamberi",
         "Pears",
         "Filu 'e ferru (Sardinian spirit)",
         "Sugar",
@@ -1019,7 +1021,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Formaggi%20sardi%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkapjB6g78ThzSsutc5ylUYS2f0w6KSyHWRg&s",
       linkToRecipe:
         "https://www.pecorinosardo.it/ricette/antipasti/93/pecorino-sardo-dolce-dop-grigliato-miele-e-noci",
       ingredients: [
@@ -1036,7 +1038,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Gathulis",
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
-      image: "https://source.unsplash.com/1600x1200/?Gathulis%20italian%20food",
+      image:
+        "https://immagini.unionesarda.it/version/c:NzU5ODhmMzQtZjZkNS00:MzdiZGRkMzgtZjA4YS00/image.webp?f=3%3A2&q=0.75&w=640",
       linkToRecipe:
         "https://www.unionesarda.it/bella-sardegna/ricette-sarde/i-gathulis-fritti-delizia-tipica-ogliastrina-y21otkdl",
       ingredients: [
@@ -1054,7 +1057,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Meat main from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Gnummareddi%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHgZFYrZpHSYXis2CAgGVoNa6OdW77Ut8ePA&s",
       linkToRecipe: "https://www.cookist.it/torcinelli/",
       ingredients: [
         "Lamb or kid offal",
@@ -1072,7 +1075,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Ispinada",
       description: "Meat main from Sardegna.",
       region: "Sardegna",
-      image: "https://source.unsplash.com/1600x1200/?Ispinada%20italian%20food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsf4uZR73wRYGqLgj_ioCZEJ82tEM-gxQpgw&s",
       linkToRecipe:
         "https://www.arborea1956.com/ricette/ispinada-di-carne-di-pecora/",
       ingredients: [
@@ -1088,7 +1092,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Lattume",
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
-      image: "https://source.unsplash.com/1600x1200/?Lattume%20italian%20food",
+      image:
+        "https://www.arborea1956.com/wp-content/uploads/2025/05/lattume-di-tonno-1.jpg",
       linkToRecipe:
         "https://www.arborea1956.com/ricette/lattume-di-tonno-fritto/",
       ingredients: [
@@ -1106,7 +1111,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
       image:
-        "https://source.unsplash.com/1600x1200/?Macarrones%20de%20busa%20italian%20food",
+        "https://www.ricettedisardegna.it/wp-content/uploads/2021/06/maccarrones-de-busa-a-sa-sarda.jpg",
       linkToRecipe:
         "https://www.ricettedisardegna.it/recipe/maccarrones-de-busa-a-sa-sarda/",
       ingredients: [
@@ -1127,7 +1132,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Mosciame",
       description: "Regional specialty from Sardegna.",
       region: "Sardegna",
-      image: "https://source.unsplash.com/1600x1200/?Mosciame%20italian%20food",
+      image:
+        "https://www.biancopalato.it/wp-content/uploads/2017/11/misticanza-tonno-pinoli.jpg",
       linkToRecipe:
         "https://www.biancopalato.it/mosciame-di-tonno-rosso-e-pinoli/",
       ingredients: [
@@ -1141,14 +1147,14 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       type: "Antipasto",
     },
   },
-  3: {
+  2: {
     1: {
       id: 1,
       name: "Pesce spada alla ghiotta",
       description: "Seafood main from Calabria.",
       region: "Calabria",
       image:
-        "https://source.unsplash.com/1600x1200/?pesce%20spada%20alla%20ghiotta",
+        "https://blog.giallozafferano.it/cucinanonnavirgi/wp-content/uploads/2015/02/pesce-spada-alla-ghiotta-1024x683.jpg",
       linkToRecipe:
         "https://blog.giallozafferano.it/cucinanonnavirgi/pesce-spada-alla-ghiotta-ricetta/",
       ingredients: [
@@ -1169,7 +1175,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Salame crudo di Albidona",
       description: "Savory starter from Calabria; Albidona-based.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?salame%20italiano",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKatE6LxmRwQcLGeQbVnrtiZEFMkmDkD__jA&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Salame_crudo_di_Albidona",
       ingredients: ["Pork", "Salt", "Black pepper", "Spices", "Natural casing"],
       type: "Antipasto",
@@ -1179,8 +1186,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Frittole (gastronomia calabrese)",
       description: "Classic street food from Calabria.",
       region: "Calabria",
-      image:
-        "https://source.unsplash.com/1600x1200/?pork%20cracklings%20italian%20street%20food",
+      image: "https://www.chocoginger.com/wp-content/uploads/2015/02/6.jpg",
       linkToRecipe:
         "https://www.cookist.it/frittole-calabresi-il-piatto-di-recupero-che-ha-una-sua-confraternita/",
       ingredients: [
@@ -1197,7 +1203,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Polpette alla mammolese",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?polpette%20italiane",
+      image:
+        "https://wips.plug.it/cips/buonissimo.org/cms/2012/01/polpette-alla-mammolese.jpg?w=713&a=c&h=407",
       linkToRecipe:
         "https://www.buonissimo.it/lericette/2621_Polpette_alla_Mammolese",
       ingredients: [
@@ -1219,7 +1226,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Savory starter from Calabria.",
       region: "Calabria",
       image:
-        "https://source.unsplash.com/1600x1200/?salsiccia%20italiana%20piccante",
+        "https://blog.giallozafferano.it/chiwawa69/wp-content/uploads/2021/09/P9220055-1779x1334.jpg",
       linkToRecipe:
         "https://blog.giallozafferano.it/chiwawa69/cose-e-come-si-fa-la-salsiccia-pezzente/",
       ingredients: [
@@ -1237,7 +1244,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Gazzosa al caffè",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?coffee%20soda%20italian",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1tkMRiuV5qyxGJmuG-IlSywUJpItbZzN-Eg&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Gazzosa_al_caff%C3%A8",
       ingredients: [
         "Sparkling lemonade (gazzosa)",
@@ -1253,7 +1261,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Bruschetta",
       description: "Savory starter from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?bruschetta",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/2014_Bruschetta_The_Larder_Chiang_Mai.jpg/1280px-2014_Bruschetta_The_Larder_Chiang_Mai.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Bruschetta",
       ingredients: [
         "Toasted bread",
@@ -1270,7 +1279,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Ciccioli",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?ciccioli%20cracklings",
+      image: "https://upload.wikimedia.org/wikipedia/commons/5/54/Ciccioli.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Ciccioli",
       ingredients: [
         "Pork fat/skin trimmings",
@@ -1286,7 +1295,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Calabria.",
       region: "Calabria",
       image:
-        "https://source.unsplash.com/1600x1200/?zucchini%20flower%20fritters",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Frittelle_di_fiori_di_zucca.JPG/960px-Frittelle_di_fiori_di_zucca.JPG",
       linkToRecipe: "https://it.wikipedia.org/wiki/Frittella_di_fiori_di_zucca",
       ingredients: [
         "Zucchini flowers",
@@ -1302,7 +1311,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Pane di castagne",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?chestnut%20bread",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/d/d2/Pane_di_castagne_e_noci.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Pane_di_castagne",
       ingredients: [
         "Chestnut flour",
@@ -1318,7 +1328,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "'Nduja",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?nduja%20calabrese",
+      image:
+        "https://blog.giallozafferano.it/incucinaconmire/wp-content/uploads/2016/02/IMG_2028-Nduja.jpg",
       linkToRecipe:
         "https://blog.giallozafferano.it/incucinaconmire/nduja-calabrese-ricetta/",
       ingredients: [
@@ -1335,7 +1346,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "'Nzuddha",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?mostaccioli%20cookies",
+      image:
+        "https://blog.giallozafferano.it/lemilleunapassione/wp-content/uploads/2014/01/DSC00555-1024x681.jpg",
       linkToRecipe:
         "https://blog.giallozafferano.it/lemilleunapassione/ricetta-mostaccioli-o-nzuddha/",
       ingredients: [
@@ -1353,7 +1365,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "'mbignulata",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?italian%20honey%20pastry",
+      image:
+        "https://www.thespruceeats.com/thmb/_IFjHcwf-KsIHW91gJ3hXbQM9ns=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Struffoli2-59e6108a22fa3a0011d6e0b7.JPG",
       linkToRecipe: "https://it.wikipedia.org/wiki/%27mbignulata",
       ingredients: [
         "Dough (flour, oil)",
@@ -1370,7 +1383,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Calabria.",
       region: "Calabria",
       image:
-        "https://source.unsplash.com/1600x1200/?panzanella%20bread%20salad",
+        "https://www.giallozafferano.it/images/170-17052/Acquasale_780x520_wm.jpg",
       linkToRecipe: "https://ricette.giallozafferano.it/Acquasale.html",
       ingredients: [
         "Stale bread",
@@ -1389,7 +1402,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Alto Crotonese",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?calabria%20food",
+      image:
+        "https://wineandtravelitaly.com/wp-content/uploads/2021/07/speciality-specialite-alto-crotonese-4.png",
       linkToRecipe: "https://it.wikipedia.org/wiki/Alto_Crotonese",
       ingredients: ["Local seasonal ingredients", "Olive oil", "Bread"],
       type: "Snack",
@@ -1399,7 +1413,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Bergamino",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?bergamot%20calabria",
+      image:
+        "https://www.kaeseleckerland.de/shop/images/products/main/detail/Bergamino%20di%20Bufala%20online%20kaufen.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Bergamino",
       ingredients: [
         "Bergamot/bergamino (local citrus)",
@@ -1413,7 +1428,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Bocconotto",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?bocconotti%20pastry",
+      image:
+        "https://www.giallozafferano.it/images/206-20693/Bocconotti_780x520_wm.jpg",
       linkToRecipe: "https://ricette.giallozafferano.it/Bocconotti.html",
       ingredients: [
         "Shortcrust pastry",
@@ -1431,7 +1447,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Calabria.",
       region: "Calabria",
       image:
-        "https://source.unsplash.com/1600x1200/?cartellate%20italian%20dessert",
+        "https://www.tavolartegusto.it/wp/wp-content/uploads/2025/12/cartellate.jpg",
       linkToRecipe: "https://www.tavolartegusto.it/ricetta/cartellate/",
       ingredients: [
         "Flour",
@@ -1448,7 +1464,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Cavatelli",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?cavatelli",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/4/43/Noto%2C_Cavatelli_pomodoro_ricotta_salata_%28cropped%29.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Cavatelli",
       ingredients: [
         "Durum wheat semolina",
@@ -1464,7 +1481,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Calabria.",
       region: "Calabria",
       image:
-        "https://source.unsplash.com/1600x1200/?italian%20vegetable%20stew",
+        "https://www.giallozafferano.it/images/194-19447/Ciambotta_780x520_wm.jpg",
       linkToRecipe: "https://ricette.giallozafferano.it/Ciambotta.html",
       ingredients: [
         "Peppers",
@@ -1484,7 +1501,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Clementine di Calabria",
       description: "Regional specialty from Calabria; Calabria-based.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?clementines",
+      image:
+        "https://www.possidentefruit.it/wp-content/uploads/2022/12/clementine-di-calabria.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Clementine_di_Calabria",
       ingredients: ["Clementines (Calabria)"],
       type: "Snack",
@@ -1494,7 +1512,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Crema reggina",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?gelato%20italiano%20rum",
+      image:
+        "https://media-cdn2.greatbritishchefs.com/media/ni0kggst/img81900.whqc_900x600q90.webp",
       linkToRecipe:
         "https://www.greatitalianchefs.com/recipes/crema-reggina-recipe",
       ingredients: [
@@ -1515,7 +1534,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Calabria.",
       region: "Calabria",
       image:
-        "https://source.unsplash.com/1600x1200/?wheat%20berry%20stew%20italian",
+        "https://www.lucianopignataro.it/wp-content/uploads/2017/05/Cuccia.jpg",
       linkToRecipe:
         "https://www.lucianopignataro.it/a/ricetta-cuccia-calabria/124592/",
       ingredients: [
@@ -1534,7 +1553,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Cudduraci",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?cudduraci%20calabresi",
+      image:
+        "https://blog.giallozafferano.it/annaelasuacucina/wp-content/uploads/2021/03/IMG_6424-720x1077.jpg",
       linkToRecipe:
         "https://blog.giallozafferano.it/annaelasuacucina/cudduraci-calabresi-dolci-pasquali-con-vermouth/",
       ingredients: [
@@ -1555,7 +1575,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Cupeta",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?sesame%20brittle%20nougat",
+      image:
+        "https://www.calabriadascoprire.it/wp-content/uploads/2015/12/cupeta-calabrese.jpg",
       linkToRecipe:
         "https://www.calabriadascoprire.it/il-torrone-di-natale-la-cupeta-calabrese/",
       ingredients: [
@@ -1573,7 +1594,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Cuzzupa",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?cuzzupa%20calabrese",
+      image:
+        "https://www.soniaperonaci.it/wp-content/uploads/2020/04/Cuzzupa-3.jpg.webp",
       linkToRecipe: "https://www.soniaperonaci.it/cuzzupe-calabresi/",
       ingredients: [
         "Flour",
@@ -1593,7 +1615,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Fileja",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?fileja%20pasta",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvHgUP29bzVjd9IKW5wZX48UTBCJgCKE5C0w&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Fileja",
       ingredients: [
         "Durum wheat semolina",
@@ -1609,7 +1632,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Frisella",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?frisella%20italian",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Frisella_secca.jpg/1280px-Frisella_secca.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Frisella",
       ingredients: [
         "Friselle (twice-baked bread)",
@@ -1626,7 +1650,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Grossa di Gerace",
       description: "Regional specialty from Calabria; Gerace-based.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?italian%20grapes",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeb0kmUpoHAH-Bb_6ZKhqrAwALHjby33bRoQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Grossa_di_Gerace",
       ingredients: ["Grapes (Grossa di Gerace)"],
       type: "Snack",
@@ -1636,7 +1661,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Lacia",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?homemade%20pasta%20sheets",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Laci.JPG/1280px-Laci.JPG",
       linkToRecipe: "https://it.wikipedia.org/wiki/Lacia",
       ingredients: [
         "Flour/semolina",
@@ -1648,23 +1674,25 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
     },
     31: {
       id: 31,
-      name: "Lametia",
+      name: "Risu d’Azata",
       description: "Regional specialty from Calabria.",
       region: "Calabria",
-      image: "https://source.unsplash.com/1600x1200/?calabria%20food",
-      linkToRecipe: "https://it.wikipedia.org/wiki/Lametia",
-      ingredients: ["Local seasonal ingredients", "Olive oil", "Bread"],
+      image:
+        "https://www.ilgiardinodellacultura.com/wp-content/uploads/2025/02/Giornata-Mondiale-Risu-dAzata.png",
+      linkToRecipe:
+        "https://www.ilgiardinodellacultura.com/2025/02/25/settimana-risu-d-azata-lamezia/",
+      ingredients: ["Local seasonal ingredients", "Rice", "Bread"],
       type: "Snack",
     },
   },
-  4: {
+  3: {
     1: {
       id: 1,
       name: "Zuppa di soffritto",
       description: "Hearty soup from Campania.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Zuppa%20di%20soffritto%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.lucianopignataro.it/a/il-soffritto-di-maiale-e-le-interiora-quinto-quarto/20991/",
       ingredients: [
@@ -1683,7 +1711,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Baked rice dish from Basilicata.",
       region: "Basilicata",
       image:
-        "https://source.unsplash.com/1200x900/?Riso%20al%20forno%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.misya.info/ricetta/riso-al-forno.htm",
       ingredients: [
         "Rice (Carnaroli)",
@@ -1701,7 +1729,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Ischia-style rabbit stew with tomatoes and herbs.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Coniglio%20all%27ischitana%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.cucchiaio.it/ricetta/ricetta-coniglio-allischitana/",
       ingredients: [
@@ -1720,7 +1748,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Salt cod cooked Lucania-style with peppers and olive oil.",
       region: "Basilicata",
       image:
-        "https://source.unsplash.com/1200x900/?Baccal%C3%A0%20alla%20lucana%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.buonissimo.it/lericette/1090_Baccala_alla_lucana",
       ingredients: [
@@ -1739,7 +1767,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Lenten-style ‘frittata’ traditionally made without eggs.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Frittata%20di%20scammaro%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Frittata-di-scammaro.html",
       ingredients: [
@@ -1758,7 +1786,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Ricotta-based dessert from the Vesuvian area.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Cassata%20di%20Oplontis%20%28dolce%29%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.lucianopignataro.it/a/cassata-di-oplontis/5191/",
       ingredients: [
@@ -1777,7 +1805,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Simple tomato-garlic-oregano ‘marinara’ style.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Alla%20marinara%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.casapappagallo.it/ricette/pasta-alla-marinara",
       ingredients: [
         "Tomatoes (pelati/passata)",
@@ -1795,7 +1823,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Herb-stuffed roast pork, classic street-food and roast.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Porchetta%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.insideat.eu/it/porchetta-fatta-in-casa-ricetta-procedura-passo-per-passo-segreti-e-tecniche/",
       ingredients: [
@@ -1814,7 +1842,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Cured ham specialty from Trevico (Irpinia/Campania).",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Prosciutto%20di%20Trevico%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.donnamoderna.com/come-fare-il-prosciutto-crudo-in-casa-437371",
       ingredients: [
@@ -1834,7 +1862,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Traditional Castellammare-style biscuit, often dunked before eating.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Biscotto%20di%20Castellammare%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://grandenapoli.it/il-biscotto-di-castellammare-la-storia-gli-ingredienti-e-la-ricetta/",
       ingredients: [
@@ -1853,7 +1881,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Fried zucchini marinated with vinegar, mint, and garlic.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Zucchine%20alla%20scapece%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Zucchine-a-scapece.html",
       ingredients: [
@@ -1873,7 +1901,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Lucanica-style sausage specialty from Picerno (Basilicata).",
       region: "Basilicata",
       image:
-        "https://source.unsplash.com/1200x900/?Salsiccia%20Lucanica%20di%20Picerno%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/dolcegiuridica/cavatelli-con-sugo-di-lucanica-igp-di-picerno/",
       ingredients: [
@@ -1893,7 +1921,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Cured ham specialty associated with Venticano (Irpinia/Campania).",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Prosciutto%20di%20Venticano%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.salumikings.it/ricette/involtini-di-prosciutto-crudo-3-ricette-veloci/",
       ingredients: [
@@ -1913,7 +1941,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Savory Neapolitan ring bread stuffed with cured meats and cheese.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Tortano%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.cucchiaio.it/ricetta/ricetta-tortano/",
       ingredients: [
         "Flour",
@@ -1931,7 +1959,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Fried mozzarella sandwich, crisp outside and gooey inside.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Mozzarella%20in%20carrozza%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Mozzarella-in-carrozza.html",
       ingredients: [
@@ -1951,7 +1979,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Basilicata-style sausage, often cooked or used in rich sauces.",
       region: "Basilicata",
       image:
-        "https://source.unsplash.com/1200x900/?Salsiccia%20lucana%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.anticasalumeriadelcorso.com/2023/01/26/ragu-di-salsiccia-lucana/",
       ingredients: [
@@ -1971,7 +1999,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Eggs poached in a spicy tomato sauce, Neapolitan comfort food.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Uova%20in%20Purgatorio%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/allacciateilgrembiule/uova-in-purgatorio/",
       ingredients: [
@@ -1991,7 +2019,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Amalfi Coast lemon dome dessert with lemon cream and glaze.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Delizia%20al%20limone%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Delizie-al-limone.html",
       ingredients: [
         "Eggs",
@@ -2010,7 +2038,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Cold bread salad from Southern Italy (bread, tomatoes, veg, oregano).",
       region: "Basilicata",
       image:
-        "https://source.unsplash.com/1200x900/?Cialledda%20fredda%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/ricettechepassione/ricetta-cialledda-fredda-materana/",
       ingredients: [
@@ -2030,7 +2058,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Rustic mix of greens and potatoes, typical Campanian countryside dish.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Mallone%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.cookist.it/mallone/",
       ingredients: [
         "Broccoli rabe (cime di rapa)",
@@ -2049,7 +2077,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Traditional Irpinia bread, known for its robust crust and flavor.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Pane%20di%20Calitri%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://agricoltura.regione.campania.it/tipici/tradizionali/pane-calitri.html",
       ingredients: [
@@ -2067,7 +2095,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Famous Basilicata bread made with durum wheat semolina and natural fermentation.",
       region: "Basilicata",
       image:
-        "https://source.unsplash.com/1200x900/?Pane%20di%20Matera%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/loscrignodelbuongusto/pane-di-matera/",
       ingredients: [
@@ -2085,7 +2113,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Irpinia bread made with local durum wheat and ‘crescente’ starter.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Pane%20di%20Montecalvo%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.irpino.it/il-pane-di-montecalvo-la-ricetta/",
       ingredients: [
         "Durum wheat semolina (Saragolla)",
@@ -2102,7 +2130,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Rich offal stew, a classic of Southern Italian ‘quinto quarto’.",
       region: "Basilicata",
       image:
-        "https://source.unsplash.com/1200x900/?Soffritto%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/slurpsimangia/soffritto-di-agnello-u-suffritt/",
       ingredients: [
@@ -2122,7 +2150,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Valdiano baked spaghetti with dried grapes, anchovies, and toasted crumbs.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Stufati%20di%20Teggiano%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://agricoltura.regione.campania.it/tipici/tradizionali/stufati-teggiano.html",
       ingredients: [
@@ -2142,7 +2170,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Potenza-style ragù with an ‘intoppo’ of mixed meats and pezzente.",
       region: "Basilicata",
       image:
-        "https://source.unsplash.com/1200x900/?%27Ndruppeche%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://spezie.org/2021/01/24/ndruppeche/",
       ingredients: [
         "Mixed meats (pork/beef)",
@@ -2161,7 +2189,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Neapolitan street-food salad of boiled snout and feet, dressed with lemon and salt.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?%27O%20pere%20e%20%27o%20musso%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.cookaround.com/amoriesapori/o-pere-e-o-musso-napoletano/",
       ingredients: [
@@ -2180,7 +2208,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Marinated anchovies with citrus/vinegar, garlic, and parsley.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Alici%20marinate%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Alici-marinate.html",
       ingredients: [
         "Fresh anchovies (previously frozen/abbattute)",
@@ -2199,7 +2227,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Horseradish (cren/rafano) used grated in sauces and condiments.",
       region: "Basilicata",
       image:
-        "https://source.unsplash.com/1200x900/?Armoracia%20rusticana%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.buttalapasta.it/ricette/ricetta-per-la-salsa-al-cren/20223/",
       ingredients: [
@@ -2218,7 +2246,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Neapolitan beef rolls braised in tomato sauce.",
       region: "Campania",
       image:
-        "https://source.unsplash.com/1200x900/?Brasciole%2C%20italian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Braciole-napoletane-al-sugo.html",
       ingredients: [
@@ -2232,13 +2260,14 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       type: "Secondo",
     },
   },
-  5: {
+  4: {
     1: {
       id: 1,
       name: "Minestra di farro",
       description: "Traditional spelt soup from Molise.",
       region: "Molise",
-      image: "https://www.cookaround.com/ricetta/zuppa-di-farro.html",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.cookaround.com/ricetta/zuppa-di-farro.html",
       ingredients: [
         "Farro (spelt)",
@@ -2258,7 +2287,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Cozze alla tarantina",
       description: "Seafood main from Puglia.",
       region: "Puglia",
-      image: "https://www.cucchiaio.it/ricetta/cozze-alla-tarantina/",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.cucchiaio.it/ricetta/cozze-alla-tarantina/",
       ingredients: [
         "Mussels",
@@ -2279,7 +2309,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Cured ham specialty from Faeto (Puglia).",
       region: "Puglia",
       image:
-        "https://www.rossotono.it/selezione-rossotono/prosciutto-crudo-faeto/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.rossotono.it/selezione-rossotono/prosciutto-crudo-faeto/",
       ingredients: [
@@ -2295,7 +2325,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Focaccia barese",
       description: "Iconic Bari focaccia with tomatoes and olives.",
       region: "Puglia",
-      image: "https://www.italianrecipebook.com/focaccia-barese/",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.italianrecipebook.com/focaccia-barese/",
       ingredients: [
         "Flour",
@@ -2316,7 +2347,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Aged ricotta-style cheese from Puglia.",
       region: "Puglia",
       image:
-        "https://www.laterradipuglia.it/gastronomia/prodotti-tipici-della-terra-di-puglia/prodotti-caseari/cacio-ricotta",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Cacioricotta",
       ingredients: ["Milk (sheep/cow mix)", "Salt", "Rennet"],
       type: "Snack",
@@ -2328,7 +2359,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Cream-filled sponge cake covered with fondant, from Bisceglie.",
       region: "Puglia",
       image:
-        "https://www.repubblica.it/il-gusto/2021/11/01/news/pasticceria_puglia_sospiri_bisceglie-324354063/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Sospiri_(dolce)",
       ingredients: ["Eggs", "Sugar", "Flour", "Pastry cream", "Fondant icing"],
       type: "Dolce",
@@ -2338,7 +2369,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Viticoltura in Puglia",
       description: "Wine-growing tradition of Puglia (non-dish reference).",
       region: "Puglia",
-      image: "",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Viticoltura_in_Puglia",
       ingredients: ["Grapes", "Wine (various)"],
       type: "Snack",
@@ -2348,7 +2380,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Panzerotto",
       description: "Fried stuffed street food from Puglia.",
       region: "Puglia",
-      image: "https://www.soniaperonaci.it/panzerotti-pugliesi/",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.soniaperonaci.it/panzerotti-pugliesi/",
       ingredients: [
         "Flour",
@@ -2368,7 +2401,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Fish stew typical of coastal Molise.",
       region: "Molise",
       image:
-        "https://www.lacucinaitaliana.it/tutorial/i-consigli/brodetto-di-pesce-alla-termolese-ricetta/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.lacucinaitaliana.it/tutorial/i-consigli/brodetto-di-pesce-alla-termolese-ricetta/",
       ingredients: [
@@ -2390,7 +2423,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Pallotte cacio e ova",
       description: "Cheese-and-egg bread balls in tomato sauce.",
       region: "Molise",
-      image: "https://www.soniaperonaci.it/pallotte-cacio-e-ova/",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.soniaperonaci.it/pallotte-cacio-e-ova/",
       ingredients: [
         "Stale bread",
@@ -2411,7 +2445,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Spicy baked pork specialty from Molise.",
       region: "Molise",
       image:
-        "https://blog.giallozafferano.it/spadellandoperilmondo/pampanella-molisana/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/spadellandoperilmondo/pampanella-molisana/",
       ingredients: [
@@ -2431,7 +2465,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Famous durum-wheat bread from Altamura.",
       region: "Puglia",
       image:
-        "https://holapuglia.es/la-tradicion-del-pan-en-puglia-patrimonio-milenario-con-sabor-a-historia/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Pane_di_Altamura",
       ingredients: [
         "Durum wheat semolina",
@@ -2446,7 +2480,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Pane di Laterza",
       description: "Rustic bread tradition from Laterza (Puglia).",
       region: "Puglia",
-      image: "https://www.tasteatlas.com/pane-di-laterza",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://brotkoerbchen.blog/2020/06/10/pane-di-laterza/",
       ingredients: ["Flour", "Water", "Salt", "Sourdough starter"],
       type: "Snack",
@@ -2457,7 +2492,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Slow-cooked horse meat in tomato sauce (Salento-style).",
       region: "Puglia",
       image:
-        "https://www.masseriachiccorizzo.it/i-sapori-contadini-della-puglia-pezzetti-di-cavallo-al-sugo/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.masseriachiccorizzo.it/i-sapori-contadini-della-puglia-pezzetti-di-cavallo-al-sugo/",
       ingredients: [
@@ -2481,7 +2516,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Fried fish preserved with saffron, vinegar, and breadcrumbs.",
       region: "Puglia",
       image:
-        "https://video.salento.it/5015-ricetta-della-scapece-gallipolina-piatto-storico-della-tradizione-gastronomica-salentina/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://video.salento.it/5015-ricetta-della-scapece-gallipolina-piatto-storico-della-tradizione-gastronomica-salentina/",
       ingredients: [
@@ -2498,7 +2533,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Sperone di gallo",
       description: "Olive cultivar reference from Molise (non-dish reference).",
       region: "Molise",
-      image: "",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Sperone_di_gallo",
       ingredients: ["Olive cultivar / olive oil"],
       type: "Snack",
@@ -2508,7 +2544,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Banchetto nuziale di Bona Sforza e Sigismondo I di Polonia",
       description: "Historical banquet entry (non-dish reference).",
       region: "Puglia",
-      image: "",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Banchetto_nuziale_di_Bona_Sforza_e_Sigismondo_I_di_Polonia",
       ingredients: ["(Historical banquet entry)"],
@@ -2520,7 +2557,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Stuffed pork rolls grilled or baked, typical of Valle d’Itria.",
       region: "Puglia",
-      image: "https://ricette.giallozafferano.it/Bombette-pugliesi.html",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Bombette-pugliesi.html",
       ingredients: [
         "Thin pork slices",
@@ -2538,7 +2576,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Caragnoli",
       description: "Honey-coated fried sweets from Molise.",
       region: "Molise",
-      image: "https://primochef.it/caragnoli/prodottitipici/",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://primochef.it/caragnoli/prodottitipici/",
       ingredients: [
         "Eggs",
@@ -2557,7 +2596,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Ciambotta pugliese",
       description: "Vegetable stew typical of southern Italy (Puglia variant).",
       region: "Puglia",
-      image: "https://www.buonissimo.it/lericette/2760_Ciambotta",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.buonissimo.it/lericette/2760_Ciambotta",
       ingredients: [
         "Eggplant",
@@ -2579,7 +2619,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Hand-rolled pasta typical of southern Italy (Puglia reference).",
       region: "Puglia",
       image:
-        "https://blog.giallozafferano.it/zeroglutine/cicatelli-cremosi-al-pomodoro-e-stracchino/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/zeroglutine/cicatelli-cremosi-al-pomodoro-e-stracchino/",
       ingredients: [
@@ -2598,7 +2638,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Cima di Bitonto",
       description: "Olive cultivar reference from Puglia (non-dish reference).",
       region: "Puglia",
-      image: "",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Cima_di_Bitonto",
       ingredients: ["Olive cultivar / olive oil"],
       type: "Snack",
@@ -2608,7 +2649,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Cima di rapa",
       description: "Turnip greens typical of southern Italian cooking.",
       region: "Puglia",
-      image: "",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Cima_di_rapa",
       ingredients: [
         "Cime di rapa (turnip greens)",
@@ -2624,7 +2666,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Cipollata",
       description: "Onion-based rustic dish (Molise reference).",
       region: "Molise",
-      image: "https://www.cookist.it/cipollata/",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.cookist.it/cipollata/",
       ingredients: [
         "Onions",
@@ -2644,7 +2687,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Clementine del golfo di Taranto",
       description: "Protected-origin clementines from the Gulf of Taranto.",
       region: "Puglia",
-      image: "",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Clementine_del_golfo_di_Taranto",
       ingredients: ["Clementines"],
@@ -2655,7 +2699,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Cocule",
       description: "Traditional baked good from Puglia (reference).",
       region: "Puglia",
-      image: "",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Cocule",
       ingredients: [
         "Flour",
@@ -2672,7 +2717,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Apulian olive cultivar known for robust extra-virgin olive oil.",
       region: "Puglia",
-      image: "",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Coratina",
       ingredients: ["Olive cultivar / extra-virgin olive oil"],
       type: "Snack",
@@ -2683,7 +2729,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Festive braided sweet bread often baked with eggs.",
       region: "Puglia",
       image:
-        "https://tavolamediterranea.com/2024/03/29/cuzzupe-o-cuddura-cu-lova/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://tavolamediterranea.com/2024/03/29/cuzzupe-o-cuddura-cu-lova/",
       ingredients: [
@@ -2705,7 +2751,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Crisp waffle cookies traditionally made with a special iron.",
       region: "Molise",
       image:
-        "https://blog.giallozafferano.it/cucinaconnene/ricetta-ferratelle-abruzzesi/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Ferratelle.html",
       ingredients: [
         "Flour",
@@ -2723,7 +2769,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Egg-and-cheese ‘thousand crumbs’ soup in broth.",
       region: "Molise",
       image:
-        "https://pastaweb.de/rezept-aromatische-mille-fanti-suppe-italienische-eierflocken-in-bruehe/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://pastaweb.de/rezept-aromatische-mille-fanti-suppe-italienische-eierflocken-in-bruehe/",
       ingredients: [
@@ -2744,7 +2790,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Stuffed layered loaf (Miranda, Molise) eaten as hearty street food.",
       region: "Molise",
-      image: "https://www.cookist.it/panonta-di-miranda/",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.cookist.it/panonta-di-miranda/",
       ingredients: [
         "Large loaf of bread",
@@ -2762,14 +2809,14 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       type: "Snack",
     },
   },
-  6: {
+  5: {
     1: {
       id: 1,
       name: "Stracciatella (zuppa)",
       description: "Hearty soup from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Stracciatella%20%28zuppa%29%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.seriouseats.com/stracciatella-alla-romana-italian-egg-drop-soup",
       ingredients: [
@@ -2788,7 +2835,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Meat main from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Trippa%20alla%20romana%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.seriouseats.com/trippa-alla-romana-braised-tripe-with-tomato-herbs-and-parmesan-recipe",
       ingredients: [
@@ -2808,7 +2855,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Seafood main from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Baccal%C3%A0%20all%27abruzzese%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.theinternationalkitchen.com/recipes/baccala/",
       ingredients: [
         "Salt cod (baccalà), soaked",
@@ -2828,7 +2875,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Fried artichokes from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Carciofi%20alla%20giudia%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.seriouseats.com/roman-jewish-fried-artichokes-carciofi-alla-giudia-recipe",
       ingredients: ["Romanesco artichokes", "Lemon", "Oil for frying", "Salt"],
@@ -2840,7 +2887,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Cured meat from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Prosciutto%20amatriciano%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.seriouseats.com/bucatini-pasta-amatriciana-recipe",
       ingredients: [
@@ -2860,7 +2907,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Spicy specialty from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Pampanella%20%28formaggio%29%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.greatitalianchefs.com/recipes/pampanella-recipe",
       ingredients: [
@@ -2879,7 +2926,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Chocolate nougat from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Torrone%20tenero%20al%20cioccolato%20aquilano%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.buonissimo.it/lericette/2725_Torrone_aquilano",
       ingredients: [
         "Honey",
@@ -2898,7 +2945,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Fish stew from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Brodetto%20alla%20vastese%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://italiasweetitalia.com/the-exquisite-brodetto-alla-vastese-fish-stew/",
       ingredients: [
@@ -2918,7 +2965,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Cured meat from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Prosciutto%20di%20Bassiano%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://gourmetaly.com/boast-of-roman-food-style-pane-prosciutto-fichi-bread-prosciutto-and-figs/",
       ingredients: [
@@ -2936,7 +2983,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Goat cheese from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Caprino%20%28formaggio%29%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.kitchenjournal.it/?tag=formaggio-caprino",
       ingredients: [
         "Fresh goat cheese (caprino)",
@@ -2953,7 +3000,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Bean soup from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Zuppa%20di%20fagioli%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.ciaoitalia.com/recipes/bean-soup-zuppa-di-fagioli",
       ingredients: [
@@ -2974,7 +3021,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Roast pork from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Porchetta%20di%20Ariccia%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.tasteatlas.com/porchettadiariccia/recipe",
       ingredients: [
         "Pork belly/loin (rolled)",
@@ -2992,7 +3039,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Mussels with saffron from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Cozze%20allo%20zafferano%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ouritaliantable.com/saffron-mussels-cozze-al-zafferano/",
       ingredients: [
@@ -3012,7 +3059,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Braised artichokes from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Carciofi%20alla%20romana%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.giallozafferano.com/recipes/carciofi-alla-romana-roman-style-artichokes.html",
       ingredients: [
@@ -3033,7 +3080,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Chocolate nougat from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Torrone%20tenero%20al%20cioccolato%20di%20Sulmona%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.tasteatlas.com/torrone/recipe/abruzzese-torrone",
       ingredients: [
@@ -3053,7 +3100,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Goat stew from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Capra%20alla%20neretese%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://stefangourmet.com/2017/01/21/goat-stew-from-abruzzo-capra-alla-neretese/",
       ingredients: [
@@ -3074,7 +3121,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Layered dessert from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Zuppa%20inglese%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.marcellinaincucina.com/zuppa-inglese/",
       ingredients: [
         "Ladyfingers or sponge cake",
@@ -3092,7 +3139,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Trippa",
       description: "Classic tripe dish from Abruzzo.",
       region: "Abruzzo",
-      image: "https://source.unsplash.com/1080x810/?Trippa%20italian%20dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://memoriediangelina.com/2020/10/10/trippa-alla-fiorentina-florentine-style-tripe/",
       ingredients: [
@@ -3112,7 +3160,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Oxtail stew from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Coda%20alla%20vaccinara%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.greatitalianchefs.com/recipes/coda-alla-vaccinara-recipe-roman-oxtail-stew",
       ingredients: [
@@ -3134,7 +3182,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Potato bread from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Pane%20con%20le%20patate%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://unamericanatragliorsi.com/2021/10/pane-con-patate-abruzzese.html/",
       ingredients: [
@@ -3153,7 +3201,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Sheep stew from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Pecora%20alla%20callara%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://lifeinabruzzo.com/shepherds-bounty-il-coatto-pecora-alla-callara/",
       ingredients: [
@@ -3173,7 +3221,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Vinegar-marinated fish from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Scapece%20alla%20vastese%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://phood64.com/cpost/scapece-alla-vastese/",
       ingredients: [
         "Fish fillets",
@@ -3192,7 +3240,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Turkey dish from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Tacchino%20alla%20canzanese%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.abruzzoturismo.it/it/magazine/tacchino-alla-canzanese",
       ingredients: [
@@ -3211,7 +3259,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Layered baked dish from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Timballo%20alla%20teramana%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://memoriediangelina.com/2024/01/17/timballo-teramano/",
       ingredients: [
@@ -3230,7 +3278,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Truffle-flavored preserve from Abruzzo.",
       region: "Abruzzo",
       image:
-        "https://source.unsplash.com/1080x810/?Peschette%20al%20tartufo%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.lovetheitalianfood.com/it/tartufi/1047-peschette-al-tartufo-300-gr-sulpizio-tartufi-8028203107007.html",
       ingredients: [
@@ -3249,7 +3297,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Fried dough from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Frittellone%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://anitalianinmykitchen.com/frittelle/",
       ingredients: [
         "Flour",
@@ -3267,7 +3315,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Rustic bread from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Pane%20casareccio%20di%20Genzano%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.karenskitchenstories.com/2015/03/pane-di-genzano-twelveloaves.html",
       ingredients: [
@@ -3284,7 +3332,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Abbacchio",
       description: "Young lamb from Lazio.",
       region: "Lazio",
-      image: "https://source.unsplash.com/1080x810/?Abbacchio%20italian%20dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://memoriediangelina.com/2024/03/27/abbacchio-alla-romana-roman-style-roast-lamb/",
       ingredients: [
@@ -3305,7 +3354,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Vegetable soup from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Acquacotta%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.simplyrecipes.com/acquacotta-recipe-8757512",
       ingredients: [
         "Tomatoes",
@@ -3325,7 +3374,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Tomato-and-guanciale sauce from Lazio.",
       region: "Lazio",
       image:
-        "https://source.unsplash.com/1080x810/?Amatriciana%20italian%20dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://blue-kitchen.com/2020/02/19/amatriciana-sauce/",
       ingredients: [
         "Guanciale (or pancetta)",
@@ -3338,14 +3387,14 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       type: "Primo",
     },
   },
-  7: {
+  6: {
     1: {
       id: 1,
       name: "Risotto alla viareggina",
       description: "A rich seafood risotto from Viareggio, Tuscany.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Risotto%20alla%20viareggina%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/allacciateilgrembiule/risotto-alla-viareggina/",
       ingredients: [
@@ -3365,7 +3414,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Slow-cooked tripe in tomato sauce, a Florentine classic.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Trippa%20alla%20fiorentina%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.cucchiaio.it/ricetta/trippa-alla-fiorentina/",
       ingredients: [
         "Trippa",
@@ -3385,7 +3434,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Stuffed mussels baked in a savory tomato sauce from Viareggio.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Cozze%20ripiene%20alla%20viareggina%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Cozze-ripiene-alla-viareggina.html",
       ingredients: [
@@ -3405,7 +3454,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Rustic Tuscan-style frittata, hearty and filling.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Frittata%20con%20gli%20zoccoli%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/allacciateilgrembiule/frittata-con-gli-zoccoli/",
       ingredients: [
@@ -3425,7 +3474,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Aromatic cheese aged wrapped in walnut leaves, typical of Tuscany.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Formaggio%20in%20foglia%20di%20noce%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.cookist.it/pecorino-in-foglie-di-noce/",
       ingredients: [
         "Pecorino",
@@ -3443,7 +3492,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Umbrian flatbread traditionally cooked on a hot stone or pan.",
       region: "Umbria",
       image:
-        "https://source.unsplash.com/1200x900/?Torta%20al%20testo%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.giallozafferano.it/ricetta/Torta-al-testo.html",
       ingredients: [
@@ -3462,7 +3511,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Clams sautéed with garlic and parsley, a seaside staple in Viareggio.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Arselle%20alla%20viareggina%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.buonissimo.it/lericette/5805_Arselle_alla_viareggina",
       ingredients: [
@@ -3481,7 +3530,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Inky-black risotto flavored with cuttlefish and its ink.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Risotto%20al%20nero%20di%20seppia%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.giallozafferano.it/ricetta/Risotto-al-nero-di-seppia.html",
       ingredients: [
@@ -3501,7 +3550,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Traditional wild boar head preparation from Tuscany.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Testa%20di%20cinghiale%20alla%20castagnetana%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.poggiodiavolino.it/2014/02/ricetta-testa-cinghiale/",
       ingredients: [
@@ -3521,7 +3570,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Umbrian frittata enriched with fragrant black truffles.",
       region: "Umbria",
       image:
-        "https://source.unsplash.com/1200x900/?Frittata%20ai%20tartufi%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.cucchiaio.it/ricetta/ricetta-frittata-tartufi/",
       ingredients: [
@@ -3540,7 +3589,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Thick-cut T-bone steak grilled over embers, a Tuscan icon.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Bistecca%20alla%20fiorentina%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Bistecca-alla-fiorentina.html",
       ingredients: [
@@ -3558,7 +3607,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Umbrian liver sausage with bold, rustic flavor.",
       region: "Umbria",
       image:
-        "https://source.unsplash.com/1200x900/?Mazzafegato%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.corriere.it/cook/news/19_aprile_24/mazzafegato-insaccato-fegato-tipico-umbria-fd4efb0c-671f-11e9-9808-13d3bb4b6e37.shtml",
       ingredients: [
@@ -3577,7 +3626,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Protected-origin cured ham from Norcia, Umbria.",
       region: "Umbria",
       image:
-        "https://source.unsplash.com/1200x900/?Prosciutto%20di%20Norcia%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://salumitalia.it/en/ricetta/panzanella-moderna-con-prosciutto-di-norcia-igp/",
       ingredients: [
@@ -3596,7 +3645,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Hearty offal stew from Sesto Fiorentino, Tuscany.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Budella%20alla%20sestese%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://cucinodite.it/secondi/budella-di-maiale-alla-sestese-la-ricetta-originale/",
       ingredients: [
@@ -3617,7 +3666,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Traditional Florentine-style brains, typically breaded and fried.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Cervello%20alla%20fiorentina%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.mondocibo.it/cervello-alla-fiorentina",
       ingredients: [
         "Cervello di vitello",
@@ -3637,7 +3686,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Mantis shrimp cooked in a garlicky tomato sauce, Viareggio-style.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Cicale%20di%20mare%20alla%20viareggina%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.casapappagallo.it/ricette/canocchie-alla-viareggina",
       ingredients: [
@@ -3657,7 +3706,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Historic Viareggio fisherman’s stew-style preparation (now largely forbidden).",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Cormorano%20alla%20cacciatora%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Cormorano_alla_cacciatora",
       ingredients: [
         "Cormorano",
@@ -3676,7 +3725,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Traditional Viareggio dish made with baby eels, crisp and aromatic.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?C%C3%A8e%20alla%20viareggina%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.viareggiocomera.it/ricette-cucina-tipica-viareggina.php?id=11",
       ingredients: [
@@ -3697,7 +3746,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Bread-based fisherman’s soup enriched with seafood and tomatoes.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Pancotto%20alla%20viareggina%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.cucchiaio.it/ricetta/ricetta-pancotto-viareggio/",
       ingredients: [
@@ -3718,7 +3767,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Celery stalks stuffed with meat, then cooked in ragù, from Prato.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Sedani%20ripieni%20alla%20pratese%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.visittuscany.com/it/ricette/la-ricetta-dei-sedani-ripieni-alla-pratese/",
       ingredients: [
@@ -3739,7 +3788,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Viareggio-style stockfish stew attributed to a sailor nicknamed ‘Tono’.",
       region: "Toscana",
       image:
-        "https://source.unsplash.com/1200x900/?Stocco%20alla%20Tono%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.tumangia.it/stocco-alla-tono-la-storia-e-la-ricetta-dalla-marineria-viareggina/",
       ingredients: [
@@ -3760,7 +3809,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Unsalted bread typical of central Italy, especially Tuscany and Umbria.",
       region: "Umbria",
       image:
-        "https://source.unsplash.com/1200x900/?Pane%20sciocco%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/dolcesalatomiky/pane-sciocco/",
       ingredients: ["Farina", "Acqua", "Lievito", "Olio extravergine d'oliva"],
@@ -3772,7 +3821,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Umbrian fried flatbread or fritter, served savory or sweet.",
       region: "Umbria",
-      image: "https://source.unsplash.com/1200x900/?Arvoltolo%2Citalian%20food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.gustour.it/ricette/arvoltolo-umbro",
       ingredients: ["Farina", "Acqua", "Sale", "Olio per friggere"],
       type: "Snack",
@@ -3783,7 +3833,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Rustic fava bean dish from central Italy, often with greens and cured pork.",
       region: "Umbria",
-      image: "https://source.unsplash.com/1200x900/?Bagiana%2Citalian%20food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.valcesano.com/bagiana-marchigiana",
       ingredients: [
         "Fave",
@@ -3801,7 +3852,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Lake fish grilled over reeds, served simply with oil and lemon.",
       region: "Umbria",
-      image: "https://source.unsplash.com/1200x900/?Brustico%2Citalian%20food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.buonissimo.it/lericette/3267_Brustico",
       ingredients: [
         "Pesce di lago (tinca/persico)",
@@ -3820,7 +3872,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Perugian ring cake scented with Alchermes, topped with meringue.",
       region: "Umbria",
       image:
-        "https://source.unsplash.com/1200x900/?Ciaramicola%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.fattoincasadabenedetta.it/ricetta/ciaramicola/",
       ingredients: [
@@ -3838,7 +3890,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Ciauscolo",
       description: "Soft, spreadable salami from the Marche/Umbria area.",
       region: "Umbria",
-      image: "https://source.unsplash.com/1200x900/?Ciauscolo%2Citalian%20food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/lacucinaromanadisoranina/crostoni-con-ciauscolo-e-stracchino/",
       ingredients: [
@@ -3855,7 +3908,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Carnival sweet: tiny fried dough balls bound with honey.",
       region: "Umbria",
       image:
-        "https://source.unsplash.com/1200x900/?Cicerchiata%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Cicerchiata.html",
       ingredients: [
         "Farina",
@@ -3874,7 +3927,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Sweet local onion from Cannara, used in many Umbrian preparations.",
       region: "Umbria",
       image:
-        "https://source.unsplash.com/1200x900/?Cipolla%20di%20Cannara%2Citalian%20food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.umbriatourism.it/it/-/cipolline-di-cannara-in-agrodolce",
       ingredients: [
@@ -3894,7 +3947,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Umbrian/Marche flatbread, perfect for filling with cured meats and cheeses.",
       region: "Umbria",
-      image: "https://source.unsplash.com/1200x900/?Crescia%2Citalian%20food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Crescia-sfogliata.html",
       ingredients: [
         "Farina",
@@ -3912,7 +3966,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Festive stuffed poultry roll served cold, sliced for platters.",
       region: "Umbria",
-      image: "https://source.unsplash.com/1200x900/?Galantina%2Citalian%20food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.umbriatourism.it/it/-/galatina-di-pollo-it",
       ingredients: [
         "Pollo disossato",
@@ -3926,7 +3981,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       type: "Antipasto",
     },
   },
-  8: {
+  7: {
     1: {
       id: 1,
       name: "Zuppa alla modenese",
@@ -4283,7 +4338,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       type: "Snack",
     },
   },
-  9: {
+  8: {
     1: {
       id: 1,
       name: "Brodo di giuggiole",
@@ -4291,7 +4346,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "A traditional jujube-based liqueur from Veneto—sweet, fruity, and often served as a digestif.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Brodo%20di%20giuggiole,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/ilricettariodellevergare/brodo-di-giuggiole/",
       ingredients: [
@@ -4312,7 +4367,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Classic Veronese risotto with Vialone Nano rice, small cuts of meat, and warm spices.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Risotto%20all%27isolana,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://melotti.it/dalle-ricette-di-mamma-rosetta/risotto-allisolana/",
       ingredients: [
@@ -4334,7 +4389,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Tender liver sautéed with slow-cooked onions—Venice’s signature offal second course, great with polenta.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Fegato%20alla%20veneziana,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Fegato-alla-veneziana.html",
       ingredients: [
@@ -4356,7 +4411,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Venetian sweet-and-sour sardines marinated with onions, vinegar, raisins, and pine nuts.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Sarde%20in%20saor,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Sarde-in-saor.html",
       ingredients: [
         "Sardines",
@@ -4377,7 +4432,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "PDO cured ham from San Daniele, prized for its delicate sweetness; perfect on a board with ricotta and fruit.",
       region: "Friuli-Venezia Giulia",
       image:
-        "https://source.unsplash.com/1200x900/?Prosciutto%20di%20San%20Daniele,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://principefoods.com/it/recipe/prosciutto-di-san-daniele-board-with-whipped-ricotta/",
       ingredients: [
@@ -4398,7 +4453,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Iconic Venetian bread with a crisp crust and airy crumb—ideal for sandwiches and cicchetti.",
       region: "Veneto",
-      image: "https://source.unsplash.com/1200x900/?Ciabatta,italian-food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/allacciateilgrembiule/pane-ciabatta/",
       ingredients: [
@@ -4417,7 +4473,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "The Italian risotto base method: toasted rice, gradual broth, and a final buttery 'mantecatura'.",
       region: "Veneto",
-      image: "https://source.unsplash.com/1200x900/?Risotto,italian-food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.salepepe.it/tecniche-base/come-fare/come-fare-il-risotto/",
       ingredients: [
@@ -4439,7 +4496,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Mountain lamb from Alpago, typically braised or roasted with herbs and served with polenta.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Agnello%20d%27Alpago,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.visitdolomitibellunesi.com/it/cosa-fare/sapori/ricette/agnello-dell-alpago",
       ingredients: [
@@ -4461,7 +4518,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Venetian-style marinated eel: fried or grilled eel set in a fragrant vinegar marinade.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Anguilla%20marinata,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.vittoriaincucina.it/ricetta-anguilla-marinata/",
       ingredients: [
@@ -4483,7 +4540,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Smoky-sweet IGP ham from Sauris, often served thinly sliced as a starter with cheese and greens.",
       region: "Friuli-Venezia Giulia",
       image:
-        "https://source.unsplash.com/1200x900/?Prosciutto%20di%20Sauris,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.wolfsauris.com/ricette/carpaccio-di-sauris/",
       ingredients: [
         "Prosciutto di Sauris (fiocco)",
@@ -4500,7 +4557,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Friulian skillet cake of potatoes and Montasio cheese—crispy outside, melty inside.",
       region: "Friuli-Venezia Giulia",
-      image: "https://source.unsplash.com/1200x900/?Frico,italian-food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Frico-con-patate-e-cipolle.html",
       ingredients: [
@@ -4520,7 +4578,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "A showstopper dessert shaped like polenta with tiny marzipan birds, from the Bergamo/Veneto tradition.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Polenta%20e%20osei,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.soniaperonaci.it/polenta-e-osei/",
       ingredients: [
         "Sponge cake",
@@ -4539,7 +4597,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Rich pork sausage gently simmered until tender—often paired with lentils in winter.",
       region: "Friuli-Venezia Giulia",
-      image: "https://source.unsplash.com/1200x900/?Cotechino,italian-food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.lacucinaitaliana.it/article/cotechino-cottura-ideale-bollito-ricetta/",
       ingredients: [
@@ -4557,7 +4616,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Cured pork neck salume (capocollo-style), aromatic and sliceable for antipasti boards.",
       region: "Friuli-Venezia Giulia",
       image:
-        "https://source.unsplash.com/1200x900/?Coppa%20salume,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/cucinavistamare/coppa-di-maiale-fatta-in-casa/",
       ingredients: [
@@ -4577,7 +4636,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Cornmeal-and-raisin biscuits (zaleti/gialletti) with a rustic crunch and golden color.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Gialletti%20zaleti,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://martinaway.com/gialletti-zaleti-ricetta/",
       ingredients: [
         "Corn flour (fioretto)",
@@ -4598,7 +4657,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Vialone Nano rice from Grumolo delle Abbadesse—often cooked as a creamy seasonal risotto.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Riso%20di%20Grumolo%20delle%20Abbadesse,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.risonatura.it/vialonenano/ricette-con-riso-di-grumolo-delle-abbadesse/",
       ingredients: [
@@ -4620,7 +4679,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Slow-braised donkey stew (musso): deep, winey, and traditionally served with polenta.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Stufato%20d%27asino,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.lapeara.it/2021/04/04/stracotto-di-musso/",
       ingredients: [
         "Donkey meat (or beef)",
@@ -4642,7 +4701,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Sweet, mild DOP garlic from Polesine—great in spreads, sauces, and crostoni.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Aglio%20bianco%20polesano,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.agliodop.eu/come-gustarlo/",
       ingredients: [
         "Aglio Bianco Polesano DOP",
@@ -4661,7 +4720,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "A prized Slow Food garlic from Val Resia, used to perfume soups, creams, and rustic dishes.",
       region: "Friuli-Venezia Giulia",
       image:
-        "https://source.unsplash.com/1200x900/?Aglio%20di%20Resia,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.de-gusto.it/it/ricette/antipasti/zuppa-daglio.html",
       ingredients: [
@@ -4681,7 +4740,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Friulian polenta-and-cheese balls (balote), hearty and comforting mountain fare.",
       region: "Friuli-Venezia Giulia",
-      image: "https://source.unsplash.com/1200x900/?Balote,italian-food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.loppure.it/la-balote-lesaltazione-dei-sapori-del-friuli/",
       ingredients: [
@@ -4699,7 +4759,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "A traditional black sausage from the Veneto/Trentino border, cooked and served hot from the grill or pan.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Barbusto%20salsiccia,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.vivigreen.eu/blog/barbusto-pat/",
       ingredients: [
         "Pork shoulder & belly",
@@ -4719,7 +4779,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Tender local broccoli (Verona area) simply boiled or sautéed and served with eggs, salami, and polenta.",
       region: "Veneto",
       image:
-        "https://source.unsplash.com/1200x900/?Broccoletto%20di%20Custoza,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.lapeara.it/2022/10/22/broccoletto-di-custoza/",
       ingredients: [
         "Broccoletto di Custoza",
@@ -4736,7 +4796,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Fermented turnip specialty from Friuli, usually warmed with aromatics and served alongside pork.",
       region: "Friuli-Venezia Giulia",
-      image: "https://source.unsplash.com/1200x900/?Brovada,italian-food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://primochef.it/brovada-friulana/prodottitipici/",
       ingredients: [
         "Brovada (fermented turnips)",
@@ -4755,7 +4816,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Triestine-style sauerkraut, often stewed with aromatics and cured pork for a savory side.",
       region: "Friuli-Venezia Giulia",
-      image: "https://source.unsplash.com/1200x900/?Crauti,italian-food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.lacucinaitaliana.it/article/come-cucinare-crauti-zuppa-ricetta-nonna/",
       ingredients: [
@@ -4777,7 +4839,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Trieste-area layered puff pastry cake filled with a rich vanilla cream and whipped cream.",
       region: "Friuli-Venezia Giulia",
       image:
-        "https://source.unsplash.com/1200x900/?Crema%20carsolina,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/nonsolodolcedilorena/ricetta-crema-carsolina-zavata/",
       ingredients: [
@@ -4799,7 +4861,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Pear distillate made by fermenting pears and distilling the spirit—aromatic and clean.",
       region: "Friuli-Venezia Giulia",
       image:
-        "https://source.unsplash.com/1200x900/?Distillato%20di%20pere,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.donnamoderna.com/come-preparare-un-distillato-di-pere-454970",
       ingredients: ["Pears", "Sugar", "Yeast (fermentation)", "Water"],
@@ -4812,7 +4874,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Triestine Carnival fritters—soft yeasted dough fried and dotted with raisins and nuts.",
       region: "Friuli-Venezia Giulia",
       image:
-        "https://source.unsplash.com/1200x900/?Fritola%20triestina,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/unanaturalistaincucina/frittelle-triestine-fritole/",
       ingredients: [
@@ -4835,7 +4897,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
         "Tyrolean potato-and-speck skillet hash topped with a fried egg—popular in Alpine regions.",
       region: "Friuli-Venezia Giulia",
       image:
-        "https://source.unsplash.com/1200x900/?Tiroler%20Grostl,italian-food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.tirol.at/aktivitaeten/kulinarik/rezepte/tiroler-groestl",
       ingredients: [
@@ -4856,7 +4918,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Cured pork cheek used for depth and richness—essential in many Italian sauces and stews.",
       region: "Friuli-Venezia Giulia",
-      image: "https://source.unsplash.com/1200x900/?Guanciale,italian-food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.bbqspark.it/post/il-guanciale-ricetta-fatta-in-casa-da-70-giorni",
       ingredients: [
@@ -4875,7 +4938,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Friulian festive swirl bread filled with nuts, dried fruit, spices, and a splash of grappa.",
       region: "Friuli-Venezia Giulia",
-      image: "https://source.unsplash.com/1200x900/?Gubana,italian-food",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Gubana.html",
       ingredients: [
         "Flour",
@@ -4895,14 +4959,14 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       type: "Dolce",
     },
   },
-  10: {
+  9: {
     1: {
       id: 1,
       name: "Risotto alla certosina",
       description: "Hearty first course from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Risotto+alla+certosina+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.cucchiaio.it/ricetta/ricetta-risotto-certosina/",
       ingredients: [
@@ -4922,7 +4986,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Savory first course from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Frittata+con+le+ortiche+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Frittata-di-ortiche.html",
       ingredients: ["Uova", "Ortiche", "Parmigiano", "Burro", "Sale", "Pepe"],
@@ -4934,7 +4998,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Classic comfort food from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Cotoletta+alla+milanese+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Cotoletta-alla-milanese.html",
       ingredients: [
@@ -4952,7 +5016,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Hearty first course from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Risotto+alla+milanese+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Risotto-alla-milanese.html",
       ingredients: [
@@ -4972,7 +5036,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Savory starter from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Frittata+con+le+rane+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.lacucinaitaliana.it/ricetta/secondi/frittata-di-rane/",
       ingredients: [
@@ -4992,7 +5056,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Savory starter from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Margottini+alla+bergamasca+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.salepepe.it/ricette/antipasti/con-formaggio/margottini-alla-bergamasca/",
       ingredients: [
@@ -5011,7 +5075,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Hearty first course from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Riso+alla+pilota+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Riso-alla-pilota.html",
       ingredients: [
         "Riso Vialone Nano",
@@ -5029,7 +5093,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Hearty first course from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Riso+in+cagnone+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.cucchiaio.it/ricetta/ricetta-riso-cagnone/",
       ingredients: ["Riso", "Burro", "Salvia", "Aglio", "Grana Padano", "Sale"],
       type: "Primo",
@@ -5040,7 +5104,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Seasonal specialty from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Asparago+rosa+di+Mezzago+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.agricolarino.it/ricette_3.html",
       ingredients: [
         "Asparagi rosa",
@@ -5058,7 +5122,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Traditional sweet treat from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Bossol%C3%A0+bresciano+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.bresciaatavola.it/it/ricette/bossola-bresciano/",
       ingredients: [
@@ -5078,7 +5142,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Rustic comfort food from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Polenta+taragna+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Polenta-taragna.html",
       ingredients: [
         "Farina di mais",
@@ -5095,7 +5159,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Bresaola",
       description: "Cured meat specialty from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Bresaola+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/unavitaincucina/bresaola-fatta-in-casa/",
       ingredients: [
@@ -5113,7 +5178,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Bruscitti",
       description: "Savory meat dish from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Bruscitti+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Polenta-e-bruscitt.html",
       ingredients: [
@@ -5133,7 +5199,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Stuffed pasta specialty from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Cappellacci+di+zucca+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.cucchiaio.it/ricetta/ricetta-cappellacci-zucca/",
       ingredients: [
@@ -5152,7 +5218,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Capù",
       description: "Savory wrapped dish from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Cap%C3%B9+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/ledolcezzedimammanene/involtini-di-verza/",
       ingredients: [
@@ -5171,7 +5238,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Casoncelli",
       description: "Hearty filled specialty from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Casoncelli+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Casoncelli.html",
       ingredients: [
         "Farina",
@@ -5189,7 +5257,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Cassœula",
       description: "Rich winter stew from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Cass%C5%93ula+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Casoeula.html",
       ingredients: [
         "Verza",
@@ -5207,7 +5276,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Chisciöi",
       description: "Crispy fritters from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Chisci%C3%B6i+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.soniaperonaci.it/chiscioi/",
       ingredients: [
         "Farina di grano saraceno",
@@ -5225,7 +5295,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Cotoletta",
       description: "Breaded cutlet classic from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Cotoletta+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Cotoletta-alla-milanese.html",
       ingredients: [
@@ -5243,7 +5314,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Slow-cooked meat specialty from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Cuz+valle+camonica+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.bresciaatavola.it/it/ricette/il-cuz-di-corteno-golgi/",
       ingredients: [
@@ -5260,7 +5331,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Foiade",
       description: "Homestyle pasta squares from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Foiade+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.casapappagallo.it/ricette/foiade",
       ingredients: [
         "Farina",
@@ -5277,7 +5349,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Gremolada",
       description: "Fresh herb-and-lemon condiment from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Gremolada+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.alimentipedia.it/ricette/gremolada/",
       ingredients: [
         "Prezzemolo",
@@ -5294,7 +5367,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Lake-area culinary tradition from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Lombardy+lakes+food+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.in-lombardia.it/it/visitare-la-lombardia/turismo-enogastronomico-lombardia/ricette-recupero-tradizione-lombarda",
       ingredients: [
@@ -5311,7 +5384,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Malfatti (gastronomia)",
       description: "Rustic dumpling-style specialty from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Malfatti+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Malfatti-bresciani.html",
       ingredients: [
@@ -5331,7 +5405,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Baked crêpe rolls from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Manfrigole+valtellinesi+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.calendariovaltellinese.com/ricetta/manfrigole",
       ingredients: [
         "Farina",
@@ -5349,7 +5423,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Mantovana (gastronomia)",
       description: "Mantuan culinary tradition from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Mantua+food+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.mantova.com/ricette-mantovane/",
       ingredients: ["Zucca", "Mostarda", "Amaretti", "Grana Padano", "Burro"],
       type: "Snack",
@@ -5359,7 +5434,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Marubini",
       description: "Filled pasta in broth from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Marubini+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Marubini.html",
       ingredients: [
         "Farina",
@@ -5376,7 +5452,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Miascia",
       description: "Bread-and-fruit cake from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Miascia+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.cucchiaio.it/ricetta/torta-di-pane-e-frutta-miascia/",
       ingredients: [
@@ -5395,7 +5472,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Missoltini",
       description: "Lake fish specialty from Lombardia.",
       region: "Lombardia",
-      image: "https://source.unsplash.com/800x600/?Missoltini+italian+dish",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://primochef.it/missoltini-con-polenta/prodottitipici/",
       ingredients: [
@@ -5415,7 +5493,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Sweet-spicy fruit condiment from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Mostarda+di+Cremona+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Mostarda-di-Cremona.html",
       ingredients: ["Frutta mista", "Zucchero", "Essenza di senape", "Acqua"],
@@ -5427,7 +5505,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Local mostarda variation from Lombardia.",
       region: "Lombardia",
       image:
-        "https://source.unsplash.com/800x600/?Mostarda+di+Voghera+italian+dish",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.focusoltrepo.it/made-in-oltrepo/mostarda-di-voghera/",
       ingredients: [
@@ -5440,14 +5518,14 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       type: "Snack",
     },
   },
-  11: {
+  10: {
     1: {
       id: 1,
       name: "Zuppa di datteri alla Lericina",
       description: "Hearty soup from Liguria; Lericina-based.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Zuppa+di+datteri+alla+Lericina+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/ricettepanedolci/zuppa-di-datteri-alla-lericina/",
       ingredients: ["Dates", "Potatoes", "Onion", "Olive Oil", "Broth"],
@@ -5459,7 +5537,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Hearty first course from Piemonte.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Risotto+al+barolo+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Risotto-al-Barolo.html",
       ingredients: [
         "Carnaroli Rice",
@@ -5476,7 +5554,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Meat main from Piemonte.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Brasato+al+barolo+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Brasato-al-barolo.html",
       ingredients: [
         "Beef (chuck/shoulder)",
@@ -5493,7 +5571,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Seafood main from Liguria.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Seppie+in+zimino+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Seppie-in-zimino.html",
       ingredients: [
         "Cuttlefish",
@@ -5510,7 +5588,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Classic street food from Liguria.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Focaccia+con+le+cipolle+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.soniaperonaci.it/focaccia-con-le-cipolle/",
       ingredients: ["Flour", "Water", "Yeast", "Onions", "Olive Oil"],
       type: "Snack",
@@ -5521,7 +5599,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Traditional cheese from Liguria.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Focaccia+con+il+formaggio+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://ricette.giallozafferano.it/Focaccia-di-Recco.html",
       ingredients: [
         "Flour",
@@ -5538,7 +5616,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Piemonte.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Fritto+misto+alla+piemontese+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Fritto-misto-alla-piemontese.html",
       ingredients: [
@@ -5556,7 +5634,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Hearty soup from Piemonte.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Minestra+maritata+piemontese+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Minestra_maritata_%28gastronomia_piemontese%29",
       ingredients: ["Rice", "Spinach", "Eggs", "Grated cheese", "Broth"],
@@ -5568,7 +5646,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Hearty first course from Piemonte.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Polenta+d%27Ivrea+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://blog.katuma.it/polentina-ivrea-ricetta/",
       ingredients: ["Corn flour", "00 flour", "Butter", "Eggs", "Sugar"],
       type: "Dolce",
@@ -5579,7 +5657,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Meat main from Liguria.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Coniglio+alla+ligure+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Coniglio-alla-Ligure.html",
       ingredients: [
@@ -5597,7 +5675,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Classic street food from Liguria.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Focaccia+genovese+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Focaccia-fugassa-alla-genovese.html",
       ingredients: ["Flour", "Water", "Yeast", "Olive Oil", "Coarse salt"],
@@ -5609,7 +5687,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Traditional cheese from Liguria.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Focaccette+al+formaggio+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/allacciateilgrembiule/focaccette-al-formaggio/",
       ingredients: [
@@ -5627,7 +5705,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Valle d'Aosta.",
       region: "Valle d'Aosta",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Caff%C3%A8+alla+valdostana+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.lacucinaitaliana.it/ricetta/bevande/caffe-alla-valdostana/",
       ingredients: ["Coffee", "Grappa", "Génépy", "Sugar", "Citrus zest"],
@@ -5639,7 +5717,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Hearty first course from Piemonte.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Polenta+saracena+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://giardinociliegi.blogspot.com/2023/12/ricetta-delle-langhe-polenta-saracena.html",
       ingredients: [
@@ -5657,7 +5735,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Meat main from Piemonte; Marengo-based.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Pollo+alla+Marengo+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Pollo-alla-Marengo.html",
       ingredients: ["Chicken", "Tomatoes", "Mushrooms", "White wine", "Garlic"],
@@ -5669,7 +5747,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Classic street food from Piemonte.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Focaccia+novese+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/ilmandorloinfioreblog/focaccia-novese/",
       ingredients: ["Flour", "Water", "Yeast", "Lard", "Olive Oil"],
@@ -5681,7 +5759,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Traditional cheese from Valle d'Aosta.",
       region: "Valle d'Aosta",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Toma+della+Bassa+Valle+d%27Aosta+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.buonissimo.it/ingredienti/toma-194917",
       ingredients: [
         "Cow's milk",
@@ -5698,7 +5776,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Piemonte.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Carne+cruda+alla+piemontese+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.cucchiaio.it/ricetta/ricetta-carne-cruda-piemontese/",
       ingredients: [
@@ -5716,7 +5794,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Valle d'Aosta.",
       region: "Valle d'Aosta",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Cotoletta+alla+valdostana+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.negroni.com/it/ricette/secondi/cotoletta-alla-valdostana-la-ricetta-originale",
       ingredients: [
@@ -5734,7 +5812,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Valle d'Aosta; Saint-Oyen-based.",
       region: "Valle d'Aosta",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Jambon+alla+brace+Saint-Oyen+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.lovevda.it/it/banca-dati/10/salumi/valle-d-aosta/jambon-alla-brace-di-saint-oyen/9014751",
       ingredients: [
@@ -5752,7 +5830,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Liguria.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Pesto+alla+genovese+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Pesto-alla-Genovese.html",
       ingredients: [
@@ -5770,7 +5848,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Piemonte.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Festival+delle+sagre+astigiane+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://visit.asti.it/en/september-in-asti/festival-of-festivals/",
       ingredients: [
@@ -5788,7 +5866,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Liguria.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Robiola+della+Val+Bormida+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.mangiareinliguria.it/prodotti-tipici-liguri/latte-formaggi-liguri/robiola-della-val-bormida",
       ingredients: [
@@ -5806,7 +5884,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Piemonte.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Toumin+dal+Mel+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://blog.giallozafferano.it/chezdansimo/suppli-al-forno-con-sorpresa-al-tumin-dal-mel/",
       ingredients: [
@@ -5824,7 +5902,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Liguria.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Trenette+al+pesto+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Bavette-al-pesto-patate-e-fagiolini.html",
       ingredients: [
@@ -5842,7 +5920,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Liguria.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Frittelle+di+lattuga+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.cucinaligure.info/2022/03/20/frisceu-de-leituga-frittelle-di-lattuga/",
       ingredients: ["Flour", "Eggs", "Lettuce", "Yeast", "Frying oil"],
@@ -5854,7 +5932,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Liguria.",
       region: "Liguria",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Moco+delle+Valli+della+Bormida+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.latitudeslife.com/2023/08/che-cose-il-moco-dove-si-raccoglie-come-si-cucina/",
       ingredients: [
@@ -5872,7 +5950,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Piemonte.",
       region: "Piemonte",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Pane+nero+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.lacascatadeisapori.it/pane-nero-di-segale-lo-pan-ner-della-valle-d-aosta/",
       ingredients: [
@@ -5890,7 +5968,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Valle d'Aosta.",
       region: "Valle d'Aosta",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Jambon+de+Bosses+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.fontina-dop.it/ricette/bruschette-con-fontina-dop-alpeggio-jambon-de-bosses-pesche-grigliate-pesto-di-basilico-e-pinoli/",
       ingredients: [
@@ -5908,7 +5986,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description: "Regional specialty from Valle d'Aosta.",
       region: "Valle d'Aosta",
       image:
-        "https://source.unsplash.com/featured/1200x900/?Boudin+valdostano+italian+food",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://www.ilbabbuinoghiotto.com/boudin-valdostano/",
       ingredients: [
         "Pork/bovine blood (optional)",
@@ -5920,13 +5998,14 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       type: "Antipasto",
     },
   },
-  12: {
+  11: {
     1: {
       id: 1,
       name: "Zuppa d'orzo",
       description: "Traditional barley soup from Trentino-Alto Adige.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/wa3rAOia8F4/1080x810",
+      image:
+        "https://blog.giallozafferano.it/annatorte/wp-content/uploads/2018/01/zuppa-dorzo-alla-trentina-vert.jpg",
       linkToRecipe:
         "https://blog.giallozafferano.it/annatorte/zuppa-dorzo-alla-trentina/",
       ingredients: [
@@ -5948,7 +6027,7 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Bread dumplings from the Alpine tradition, often served in broth or with butter.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/cCkL1MO5fxo/1080x810",
+      image: "https://ptps.stbm.it/t/uh8ulz_large.jpg",
       linkToRecipe:
         "https://ricette.giallozafferano.it/Canederli-alla-Tirolese-Knodel.html",
       ingredients: [
@@ -5970,7 +6049,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Salame all'aglio della Val Rendena",
       description: "Garlic salami typical of Val Rendena in Trentino.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/Y6YP6VRk36U/1080x810",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWZ1Xdkq52ziXAP6_GtSC1aGNxOQWmQO3ILQ&s",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Salame_all%27aglio_della_Val_Rendena",
       ingredients: [
@@ -5989,7 +6069,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Semi-hard cheese associated with the Dolomites area of Alta Badia.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/0aE3EGmC9kw/1080x810",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Formaggio_Alta_Badia.jpg/1280px-Formaggio_Alta_Badia.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Alta_Badia_(formaggio)",
       ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
       type: "Antipasto",
@@ -6000,7 +6081,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Vanilla crescent cookies popular in Alto Adige and Central Europe.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/oBVa-etiSZQ/1080x810",
+      image:
+        "https://blog.giallozafferano.it/dulcisinforno/wp-content/uploads/2020/12/Vanillekipferl-9436_2new.jpg",
       linkToRecipe:
         "https://blog.giallozafferano.it/dulcisinforno/vanillekipferl-cornetti-alla-vaniglia/",
       ingredients: [
@@ -6021,7 +6103,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Garlic salami from Caderzone, part of the Val Rendena tradition.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/Y6YP6VRk36U/1080x810",
+      image:
+        "https://km0.com/wp-content/uploads/2023/01/prodotti_km0_1_1200.jpg",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Salame_all%27aglio_di_Caderzone",
       ingredients: [
@@ -6040,7 +6123,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Famous Alpine cheese, produced in different ages from fresh to long-matured.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/0aE3EGmC9kw/1080x810",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Formaggio_Asiago_Dop.jpg/1280px-Formaggio_Asiago_Dop.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Asiago_(formaggio)",
       ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
       type: "Antipasto",
@@ -6050,7 +6134,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Carne fumada della Val di Cembra",
       description: "Smoked and cured beef specialty from the Cembra Valley.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/s4jdYaQOAqM/1080x810",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeFIFAivEeZv6qllEKMcBZ7noDpW0u9fvzxw&s",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Carne_fumada_della_Val_di_Cembra",
       ingredients: [
@@ -6070,7 +6155,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Traditional Trentino cheese, historically shaped in basket molds.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/0aE3EGmC9kw/1080x810",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFZYdBCikss5j5aLlnJy6NEpA5KEh9w9ZH2A&s",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Canestrato_(formaggio_trentino)",
       ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
@@ -6082,7 +6168,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Salt-cured beef specialty from Val di Cembra, often thinly sliced.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/nZ3by1XC-34/1080x810",
+      image:
+        "https://images.dissapore.com/wp-content/uploads/2019/05/Show-Cooking-Chef-Alfio-Ghezzi-01.jpg?width=660&height=0&quality=75",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Carne_salmistrada_della_Val_di_Cembra",
       ingredients: [
@@ -6101,7 +6188,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Formaggio contadino semigrasso di Lagundo",
       description: "Semi-fat farmhouse cheese typical of the Lagundo area.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/0aE3EGmC9kw/1080x810",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dFLlEXwna6SLOLwvd6t5-KIOCpj93pTuJQ&s",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Formaggio_contadino_semigrasso_di_Lagundo",
       ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
@@ -6113,7 +6201,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Small-format garlic salami from Caderzone, part of local winter traditions.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/Y6YP6VRk36U/1080x810",
+      image:
+        "https://www.vivigreen.eu/wp-content/uploads/2022/01/pancetta-arrotolata-val-rendena.jpg",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Cacciatore_nostrano_all%27aglio_di_Caderzone",
       ingredients: [
@@ -6132,7 +6221,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Goat cheese from Lagundo, a small-scale mountain dairy tradition.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/QP7AGEp0Dy4/1080x810",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Algunder_Ziegenk%C3%A4se_-_Formaggio_di_capra_di_Lagundo.jpg/960px-Algunder_Ziegenk%C3%A4se_-_Formaggio_di_capra_di_Lagundo.jpg",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Formaggio_di_capra_di_Lagundo",
       ingredients: ["Goat's milk", "Salt", "Rennet", "Lactic cultures"],
@@ -6144,7 +6234,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Mocheni-style horse sausage from Trentino’s Germanic-speaking valley tradition.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/ipcIeLJsoNg/1080x810",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr-_-_6qMjUhbc8txKMowMUmv1--cZIdxhBA&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Lucanica_mochena_di_cavallo",
       ingredients: [
         "Pork",
@@ -6158,14 +6249,14 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
     },
     15: {
       id: 15,
-      name: "Formaggio di montagna di Sesto",
-      description:
-        "Mountain cheese from Sesto in the Upper Puster Valley area.",
+      name: "Treccia Mochena",
+      description: "Traditional dessert from Trentino.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/0aE3EGmC9kw/1080x810",
+      image:
+        "https://blog.giallozafferano.it/idolcidiamiciincucina/wp-content/uploads/2019/05/Treccia-Mochena.jpg",
       linkToRecipe:
-        "https://it.wikipedia.org/wiki/Formaggio_di_montagna_di_Sesto",
-      ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
+        "https://blog.giallozafferano.it/idolcidiamiciincucina/wp-content/uploads/2019/05/Treccia-Mochena.jpg",
+      ingredients: ["Flour", "Yeast", "Eggs", "Sugar"],
       type: "Antipasto",
     },
     16: {
@@ -6174,7 +6265,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Rolled garlic pancetta typical of Caderzone’s cured-meat tradition.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/Y6YP6VRk36U/1080x810",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVIyW6GNCzIi7eCor51dB4tg2zwsVp70Jgjw&s",
       linkToRecipe:
         "https://it.wikipedia.org/wiki/Pancetta_nostrana_all%27aglio_di_Caderzone",
       ingredients: [
@@ -6193,7 +6285,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Alpine cheese named after the Ortler massif, made in South Tyrolean tradition.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/0aE3EGmC9kw/1080x810",
+      image:
+        "https://www.h-h-shop.com/images/product_images/original_images/Ortler-K-se-Mila-ganzer-Laib-ca-2-5-kg--2016-02-29CET17-40-02_0.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Ortler_(formaggio)",
       ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
       type: "Antipasto",
@@ -6204,7 +6297,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Lean local cheese specialty from South Tyrol’s dairy tradition.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/QP7AGEp0Dy4/1080x810",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Aschbach_magro.jpg/1280px-Aschbach_magro.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Aschbach_magro",
       ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
       type: "Antipasto",
@@ -6215,7 +6309,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "DOP-style Alpine cheese with a strong aroma, produced in South Tyrol.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/0aE3EGmC9kw/1080x810",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/Formaggio_Stelvio.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Stelvio_(formaggio)",
       ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
       type: "Antipasto",
@@ -6226,7 +6321,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "White asparagus from the Zambana area, prized for its tenderness and delicate taste.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/OEFYFncTHIE/1080x810",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8BZRhFOmnioj2LtMxK7KtJH-chjtvFNBjbA&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Asparago_bianco_di_Zambana",
       ingredients: [
         "White asparagus",
@@ -6243,7 +6339,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Traditional aged cheese from the Trentino highlands, known for savory depth.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/0aE3EGmC9kw/1080x810",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Vezzena_(formaggio)",
       ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
       type: "Antipasto",
@@ -6254,7 +6351,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Soft, creamy cheese associated with the Badia/Dolomites area.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/QP7AGEp0Dy4/1080x810",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Bela_Badia.jpg/1280px-Bela_Badia.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Bela_Badia",
       ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
       type: "Antipasto",
@@ -6265,7 +6363,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Alpine-style pretzel commonly found in Trentino-Alto Adige bakeries.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/1GeTpL5FJvY/1080x810",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Brezel_l_B%C3%A4ckerei-Raisch.jpg/2560px-Brezel_l_B%C3%A4ckerei-Raisch.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Brezel",
       ingredients: [
         "Wheat flour",
@@ -6282,7 +6381,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Traditional pork sausages from mountainous Trentino-Alto Adige areas.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/ipcIeLJsoNg/1080x810",
+      image:
+        "https://dishes-delicious.de/wp-content/uploads/2025/05/Crostini-mit-Salsiccia-und-Robiola.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Brusti",
       ingredients: [
         "Pork",
@@ -6299,7 +6399,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       name: "Béchi-panzalini",
       description: "Traditional Trentino bread loaf (filone a due tagli).",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/SuCty-PXrq0/1080x810",
+      image:
+        "https://www.topfooditaly.net/wp-content/uploads/2020/03/fiadone-salato-abruzzo-380x288.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/B%C3%A9chi-panzalini",
       ingredients: ["Wheat flour", "Water", "Yeast", "Salt"],
       type: "Snack",
@@ -6310,21 +6411,22 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Small mountain-style caciotta cheese, often served on boards or melted in dishes.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/QP7AGEp0Dy4/1080x810",
+      image:
+        "https://d15j9y5wlusr11.cloudfront.net/filehub/image/f22be364-28f6-46b7-a1ab-8c9bb8225743/55162/ricetta.png.420x510_q80_crop-smart_upscale.jpg",
       linkToRecipe: "https://it.wikipedia.org/wiki/Caciottina_Montanara",
       ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
       type: "Antipasto",
     },
     27: {
       id: 27,
-      name: "Caffè di Anterivo",
+      name: "Nidi di patate con uova",
       description:
-        "Caffeine-free ‘coffee’ surrogate traditionally made from roasted lupins/grains in Alto Adige.",
+        "Appetizer from Trentino featuring potato nests filled with eggs.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/xReAGFw9fsA/1080x810",
+      image: "https://ricetta.it/Uploads/Imgs/nidi-di-patate-con-uova.jpg.webp",
       linkToRecipe: "https://www.caffedianterivo.it/it/ricette/",
-      ingredients: ["Roasted lupin seeds", "Roasted grains (barley)", "Water"],
-      type: "Snack",
+      ingredients: ["Potatoes", "Eggs", "Parmesan", "Butter", "Salt", "Pepper"],
+      type: "Antipasto",
     },
     28: {
       id: 28,
@@ -6332,7 +6434,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Smoked beef specialty from Siror, traditionally cured, aged, and thinly sliced.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/s4jdYaQOAqM/1080x810",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://foodnetwork.it/ricette-antipasti/carne-fumada-di-siror-con-cavolo-cappuccio-stufato-al-cumino-con-crumble-di-pane-nero",
       ingredients: [
@@ -6352,7 +6455,8 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Cured beef from Trentino, often served as carpaccio with beans, oil, and lemon.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/nZ3by1XC-34/1080x810",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe:
         "https://www.galbani.it/abcucina/come-fare/come-cucinare-la-carne/carne-salada-come-si-mangia",
       ingredients: [
@@ -6372,27 +6476,22 @@ export const italianDishes: Record<number, Record<number, ItalianDish>> = {
       description:
         "Trentino cheese from Val di Sole/Val di Non tradition, often semi-soft and aromatic.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/0aE3EGmC9kw/1080x810",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeekgzS8BxbdoDXtAjUf4SzKRW0KI0FyKKQ&s",
       linkToRecipe: "https://it.wikipedia.org/wiki/Casolet",
       ingredients: ["Cow's milk", "Salt", "Rennet", "Lactic cultures"],
       type: "Antipasto",
     },
     31: {
       id: 31,
-      name: "Castrato (gastronomia)",
+      name: "Spezzatino di Castrato",
       description:
-        "Traditional preparation using mutton (from castrated sheep), associated with pastoral cuisines.",
+        "Traditional mutton stew from Trentino, slow-cooked with herbs and vegetables.",
       region: "Trentino-Alto Adige",
-      image: "https://source.unsplash.com/449qWYYxEdo/1080x810",
-      linkToRecipe: "https://it.wikipedia.org/wiki/Castrato_(gastronomia)",
-      ingredients: [
-        "Mutton (castrated sheep)",
-        "Olive oil",
-        "Garlic",
-        "Rosemary",
-        "Salt",
-        "Black pepper",
-      ],
+      image:
+        "https://www.cucinare.it/i/NzZiNTM14BNGRZ8L3VwbG9hZHMvd3AtY29udGVudC91cGxvYWRzLzIwMTUvMTIvc3BlenphdGlub19kaV9jYXN0cmF0b18xNDQ5ODc4NzkzLmpwZ3w4NDB8NTcyfGpwZWd8/840x572-spezzatino_di_castrato_1449878793.jpeg",
+      linkToRecipe: "https://www.cucinare.it/ricetta/spezzatino-di-castrato",
+      ingredients: ["Mutton", "Onion", "Carrot", "Celery", "Red wine", "Broth"],
       type: "Secondo",
     },
   },

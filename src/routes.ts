@@ -18,7 +18,7 @@ export const router = createHashRouter([
         Component: MonthlyOverview,
       },
       {
-        path: "dish/:dayId",
+        path: "dish/:monthId/:dayId",
         Component: DishPage,
       },
     ],

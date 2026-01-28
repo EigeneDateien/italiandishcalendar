@@ -5,11 +5,11 @@ import { MonthlyCalendar } from "../components/MonthlyCalendar";
 export function MonthlyOverview() {
   const [currentDate, setCurrentDate] = useState(new Date());
   const navigate = useNavigate();
-  
-  const handleDayClick = (day: number) => {
-    navigate(`/dish/${day}`);
+
+  const handleDayClick = (month: number, day: number) => {
+    navigate(`/dish/${month}/${day}`);
   };
-  
+
   return (
     <div className="py-6 sm:py-8">
       <div className="max-w-6xl mx-auto px-4 mb-6">
@@ -17,7 +17,7 @@ export function MonthlyOverview() {
           Click on any day to explore that dish in detail
         </p>
       </div>
-      <MonthlyCalendar 
+      <MonthlyCalendar
         currentDate={currentDate}
         onDateChange={setCurrentDate}
         onDayClick={handleDayClick}
